@@ -1079,9 +1079,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>DrizztSaga-3.02\* .' & @CRLF)
 		_Extract_MoveMod('DrizztSaga-3.02')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\refinements-4.26') Then
-		FileWrite($g_LogFile, '>refinements-4.26\* .' & @CRLF)
-		_Extract_MoveMod('refinements-4.26')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\refinements-4.28') Then
+		FileWrite($g_LogFile, '>refinements-4.28\* .' & @CRLF)
+		_Extract_MoveMod('refinements-4.28')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ArathEET-master') Then
 		FileWrite($g_LogFile, '>ArathEET-master\* .' & @CRLF)
