@@ -895,6 +895,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Divine_Remix-master\* .' & @CRLF)
 		_Extract_MoveMod('Divine_Remix-master')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Nephele_NPC-2.6') Then
+		FileWrite($g_LogFile, '>Nephele_NPC-2.6\* .' & @CRLF)
+		_Extract_MoveMod('Nephele_NPC-2.6')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Epic-Thieving-master') Then
 		FileWrite($g_LogFile, '>Epic-Thieving-master\* .' & @CRLF)
 		_Extract_MoveMod('Epic-Thieving-master')
