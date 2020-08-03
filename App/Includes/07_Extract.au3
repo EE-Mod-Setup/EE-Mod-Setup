@@ -835,9 +835,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>ValenEE-master\* .' & @CRLF)
 		_Extract_MoveMod('ValenEE-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\VaultEE-8.0') Then
-		FileWrite($g_LogFile, '>VaultEE-8.0\* .' & @CRLF)
-		_Extract_MoveMod('VaultEE-8.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\VaultEE-8.1') Then
+		FileWrite($g_LogFile, '>VaultEE-8.1\* .' & @CRLF)
+		_Extract_MoveMod('VaultEE-8.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\WheelsOfProphecy-master') Then
 		FileWrite($g_LogFile, '>WheelsOfProphecy-master\* .' & @CRLF)
