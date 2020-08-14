@@ -791,9 +791,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>RuadEE-master\* .' & @CRLF)
 		_Extract_MoveMod('RuadEE-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NPC_EE-3.8') Then
-		FileWrite($g_LogFile, '>NPC_EE-3.8\* .' & @CRLF)
-		_Extract_MoveMod('NPC_EE-3.8')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NPC_EE-4.1') Then
+		FileWrite($g_LogFile, '>NPC_EE-4.1\* .' & @CRLF)
+		_Extract_MoveMod('NPC_EE-4.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TowerOfDeception-4.0.1') Then
 		FileWrite($g_LogFile, '>TowerOfDeception-4.0.1\* .' & @CRLF)
