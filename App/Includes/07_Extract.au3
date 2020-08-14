@@ -887,9 +887,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>A7-BanterAccelerator-master\* .' & @CRLF)
 		_Extract_MoveMod('A7-BanterAccelerator-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-NPCGenerator-1.1') Then
-		FileWrite($g_LogFile, '>A7-NPCGenerator-1.1\* .' & @CRLF)
-		_Extract_MoveMod('A7-NPCGenerator-1.1')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-NPCGenerator-1.2') Then
+		FileWrite($g_LogFile, '>A7-NPCGenerator-1.2\* .' & @CRLF)
+		_Extract_MoveMod('A7-NPCGenerator-1.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Divine_Remix-master') Then
 		FileWrite($g_LogFile, '>Divine_Remix-master\* .' & @CRLF)
