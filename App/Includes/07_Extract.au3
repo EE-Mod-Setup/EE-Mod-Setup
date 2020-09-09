@@ -1147,6 +1147,14 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>bgee-animus-master\* .' & @CRLF)
 		_Extract_MoveMod('bgee-animus-master')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AurenAseph-11') Then
+		FileWrite($g_LogFile, '>AurenAseph-11\* .' & @CRLF)
+		_Extract_MoveMod('AurenAseph-11')
+	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sarah-6') Then
+		FileWrite($g_LogFile, '>Sarah-6\* .' & @CRLF)
+		_Extract_MoveMod('Sarah-6')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Adrian_NPC-5.0') Then
 		FileWrite($g_LogFile, '>Adrian_NPC-5.0\* .' & @CRLF)
 		_Extract_MoveMod('Adrian_NPC-5.0')
