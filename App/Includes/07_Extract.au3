@@ -1143,6 +1143,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Miriam-master\* .' & @CRLF)
 		_Extract_MoveMod('Miriam-master')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Asylum-master') Then
+		FileWrite($g_LogFile, '>Asylum-master\* .' & @CRLF)
+		_Extract_MoveMod('Asylum-master')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\bgee-animus-master') Then
 		FileWrite($g_LogFile, '>bgee-animus-master\* .' & @CRLF)
 		_Extract_MoveMod('bgee-animus-master')
