@@ -619,6 +619,14 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>PST-UB-reloaded-master\* .' & @CRLF)
 		_Extract_MoveMod('PST-UB-reloaded-master')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\generalized_biffing-master') Then
+		FileWrite($g_LogFile, '>generalized_biffing-master\* .' & @CRLF)
+		_Extract_MoveMod('generalized_biffing-master')
+	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-BagsOfTorment-master') Then
+		FileWrite($g_LogFile, '>A7-BagsOfTorment-master\* .' & @CRLF)
+		_Extract_MoveMod('A7-BagsOfTorment-master')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ajantis_BG1_Expansion-15') Then
 		FileWrite($g_LogFile, '>Ajantis_BG1_Expansion-15\* .' & @CRLF)
 		_Extract_MoveMod('Ajantis_BG1_Expansion-15')
