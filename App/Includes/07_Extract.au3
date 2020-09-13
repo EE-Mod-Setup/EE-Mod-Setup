@@ -383,6 +383,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Indira-master\* .' & @CRLF)
 		_Extract_MoveMod('Indira-master')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Finch-master') Then
+		FileWrite($g_LogFile, '>Finch-master\* .' & @CRLF)
+		_Extract_MoveMod('Finch-master')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\EET-1.0RC12.2') Then
 		FileWrite($g_LogFile, '>EET-1.0RC12.2\* .' & @CRLF)
 		_Extract_MoveMod('EET-1.0RC12.2')
