@@ -1123,9 +1123,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>ArathEET-master\* .' & @CRLF)
 		_Extract_MoveMod('ArathEET-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Yeslick_NPC-4.0') Then
-		FileWrite($g_LogFile, '>Yeslick_NPC-4.0\* .' & @CRLF)
-		_Extract_MoveMod('Yeslick_NPC-4.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Yeslick_NPC-5.0') Then
+		FileWrite($g_LogFile, '>Yeslick_NPC-5.0\* .' & @CRLF)
+		_Extract_MoveMod('Yeslick_NPC-5.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\The-Artisan-s-Kitpack-master') Then
 		FileWrite($g_LogFile, '>The-Artisan-s-Kitpack-master\* .' & @CRLF)
