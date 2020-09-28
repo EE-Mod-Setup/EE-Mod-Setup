@@ -715,6 +715,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>NindeEET-master\* .' & @CRLF)
 		_Extract_MoveMod('NindeEET-master')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Tsujatha-master') Then
+		FileWrite($g_LogFile, '>Tsujatha-master\* .' & @CRLF)
+		_Extract_MoveMod('Tsujatha-master')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SOS_EE-master') Then
 		FileWrite($g_LogFile, '>SOS_EE-master\* .' & @CRLF)
 		_Extract_MoveMod('SOS_EE-master')
