@@ -939,9 +939,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Fade_NPC-5.6\* .' & @CRLF)
 		_Extract_MoveMod('Fade_NPC-5.6')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BP-BGT-Worldmap-10.2.4') Then
-		FileWrite($g_LogFile, '>BP-BGT-Worldmap-10.2.4\* .' & @CRLF)
-		_Extract_MoveMod('BP-BGT-Worldmap-10.2.4')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BP-BGT-Worldmap-10.2.5') Then
+		FileWrite($g_LogFile, '>BP-BGT-Worldmap-10.2.5\* .' & @CRLF)
+		_Extract_MoveMod('BP-BGT-Worldmap-10.2.5')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Relieve-Wizard-Slayer-master') Then
 		FileWrite($g_LogFile, '>Relieve-Wizard-Slayer-master\* .' & @CRLF)
