@@ -539,9 +539,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>The-Rune-master\* .' & @CRLF)
 		_Extract_MoveMod('The-Rune-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ChloeEET-1.6_EE') Then
-		FileWrite($g_LogFile, '>ChloeEET-1.6_EE\* .' & @CRLF)
-		_Extract_MoveMod('ChloeEET-1.6_EE')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ChloeEET-1.7_EE') Then
+		FileWrite($g_LogFile, '>ChloeEET-1.7_EE\* .' & @CRLF)
+		_Extract_MoveMod('ChloeEET-1.7_EE')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Corwin-0.5') Then
 		FileWrite($g_LogFile, '>Corwin-0.5\* .' & @CRLF)
