@@ -367,9 +367,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>AstroBryGuy-NeeraBanters-7124366\* .' & @CRLF)
 		_Extract_MoveMod('AstroBryGuy-NeeraBanters-7124366')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SharteelSoD-1.3') Then
-		FileWrite($g_LogFile, '>SharteelSoD-1.3\* .' & @CRLF)
-		_Extract_MoveMod('SharteelSoD-1.3')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\m7tweaks-master') Then
+		FileWrite($g_LogFile, '>m7tweaks-master\* .' & @CRLF)
+		_Extract_MoveMod('m7tweaks-master')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sampsca-ThrownHammers-20eb91a') Then
 		FileWrite($g_LogFile, '>Sampsca-ThrownHammers-20eb91a\* .' & @CRLF)
