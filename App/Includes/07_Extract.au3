@@ -723,9 +723,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>SOS_EE-master\* .' & @CRLF)
 		_Extract_MoveMod('SOS_EE-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\YasraenaEET-18') Then
-		FileWrite($g_LogFile, '>YasraenaEET-18\* .' & @CRLF)
-		_Extract_MoveMod('YasraenaEET-18')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\YasraenaEET-19') Then
+		FileWrite($g_LogFile, '>YasraenaEET-19\* .' & @CRLF)
+		_Extract_MoveMod('YasraenaEET-19')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Faiths_and_Powers-master') Then
 		FileWrite($g_LogFile, '>Faiths_and_Powers-master\* .' & @CRLF)
