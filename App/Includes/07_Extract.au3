@@ -575,9 +575,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>EET_Expanded_Thief_Stronghold-2.3\* .' & @CRLF)
 		_Extract_MoveMod('EET_Expanded_Thief_Stronghold-2.3')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DSotSC-4.0') Then
-		FileWrite($g_LogFile, '>DSotSC-4.0\* .' & @CRLF)
-		_Extract_MoveMod('DSotSC-4.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DSotSC-4.1') Then
+		FileWrite($g_LogFile, '>DSotSC-4.1\* .' & @CRLF)
+		_Extract_MoveMod('DSotSC-4.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DeepgnomesEET-0.4') Then
 		FileWrite($g_LogFile, '>DeepgnomesEET-0.4\* .' & @CRLF)
