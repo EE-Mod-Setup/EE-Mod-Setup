@@ -335,9 +335,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>MasterVampire-master\* .' & @CRLF)
 		_Extract_MoveMod('MasterVampire-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG1NPC-24.9') Then
-		FileWrite($g_LogFile, '>BG1NPC-24.9\* .' & @CRLF)
-		_Extract_MoveMod('BG1NPC-24.9')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG1NPC-25') Then
+		FileWrite($g_LogFile, '>BG1NPC-25\* .' & @CRLF)
+		_Extract_MoveMod('BG1NPC-25')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\bg1npcmusic-master') Then
 		FileWrite($g_LogFile, '>bg1npcmusic-master\* .' & @CRLF)
@@ -758,6 +758,10 @@ Func Au3ExFix($p_Num)
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Romantic_Encounters_BG2-master') Then
 		FileWrite($g_LogFile, '>Romantic_Encounters_BG2-master\* .' & @CRLF)
 		_Extract_MoveMod('Romantic_Encounters_BG2-master')
+	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG1_Romantic_Encounters-6.0') Then
+		FileWrite($g_LogFile, '>BG1_Romantic_Encounters-6.0\* .' & @CRLF)
+		_Extract_MoveMod('BG1_Romantic_Encounters-6.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\RoseRE-master') Then
 		FileWrite($g_LogFile, '>RoseRE-master\* .' & @CRLF)
