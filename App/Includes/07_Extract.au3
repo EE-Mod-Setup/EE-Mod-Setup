@@ -427,9 +427,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>ToA-3.0\* .' & @CRLF)
 		_Extract_MoveMod('ToA-3.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\FishingForTrouble-3.2.6') Then
-		FileWrite($g_LogFile, '>FishingForTrouble-3.2.6\* .' & @CRLF)
-		_Extract_MoveMod('FishingForTrouble-3.2.6')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\FishingForTrouble-3.2.7') Then
+		FileWrite($g_LogFile, '>FishingForTrouble-3.2.7\* .' & @CRLF)
+		_Extract_MoveMod('FishingForTrouble-3.2.7')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Magestronghold-0.4') Then
 		FileWrite($g_LogFile, '>Magestronghold-0.4\* .' & @CRLF)
