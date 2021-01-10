@@ -1191,6 +1191,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Tenya-2.0\* .' & @CRLF)
 		_Extract_MoveMod('Tenya-2.0')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Murneth-14') Then
+		FileWrite($g_LogFile, '>Murneth-14\* .' & @CRLF)
+		_Extract_MoveMod('Murneth-14')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Adrian_NPC-5.0') Then
 		FileWrite($g_LogFile, '>Adrian_NPC-5.0\* .' & @CRLF)
 		_Extract_MoveMod('Adrian_NPC-5.0')
