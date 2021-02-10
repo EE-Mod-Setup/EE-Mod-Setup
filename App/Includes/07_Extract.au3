@@ -547,6 +547,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Corwin-1.0\* .' & @CRLF)
 		_Extract_MoveMod('Corwin-1.0')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Subrace-mod-0.2.1') Then
+		FileWrite($g_LogFile, '>Subrace-mod-0.2.1\* .' & @CRLF)
+		_Extract_MoveMod('Subrace-mod-0.2.1')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Crossmod_Banter_Pack_for_Baldurs_Gate_II-master') Then
 		FileWrite($g_LogFile, '>Crossmod_Banter_Pack_for_Baldurs_Gate_II-master\* .' & @CRLF)
 		_Extract_MoveMod('Crossmod_Banter_Pack_for_Baldurs_Gate_II-master')
