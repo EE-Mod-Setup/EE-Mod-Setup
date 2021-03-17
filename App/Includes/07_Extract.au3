@@ -823,9 +823,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>RuadEE-master\* .' & @CRLF)
 		_Extract_MoveMod('RuadEE-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NPC_EE-4.1') Then
-		FileWrite($g_LogFile, '>NPC_EE-4.1\* .' & @CRLF)
-		_Extract_MoveMod('NPC_EE-4.1')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NPC_EE-4.3') Then
+		FileWrite($g_LogFile, '>NPC_EE-4.3\* .' & @CRLF)
+		_Extract_MoveMod('NPC_EE-4.3')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TowerOfDeception-5.0.1') Then
 		FileWrite($g_LogFile, '>TowerOfDeception-5.0.1\* .' & @CRLF)
@@ -1075,9 +1075,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>subtledoctor-EE_APR_Fix-1c6057b\* .' & @CRLF)
 		_Extract_MoveMod('subtledoctor-EE_APR_Fix-1c6057b')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.27') Then
-		FileWrite($g_LogFile, '>Scales_of_Balance-5.27\* .' & @CRLF)
-		_Extract_MoveMod('Scales_of_Balance-5.27')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.30') Then
+		FileWrite($g_LogFile, '>Scales_of_Balance-5.30\* .' & @CRLF)
+		_Extract_MoveMod('Scales_of_Balance-5.30')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Darron-2.0.0') Then
 		FileWrite($g_LogFile, '>Darron-2.0.0\* .' & @CRLF)
@@ -1135,9 +1135,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>DrizztSaga-3.02\* .' & @CRLF)
 		_Extract_MoveMod('DrizztSaga-3.02')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\refinements-4.28') Then
-		FileWrite($g_LogFile, '>refinements-4.28\* .' & @CRLF)
-		_Extract_MoveMod('refinements-4.28')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\refinements-4.29') Then
+		FileWrite($g_LogFile, '>refinements-4.29\* .' & @CRLF)
+		_Extract_MoveMod('refinements-4.29')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ArathEET-master') Then
 		FileWrite($g_LogFile, '>ArathEET-master\* .' & @CRLF)
