@@ -635,9 +635,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>A7-BagsOfTorment-master\* .' & @CRLF)
 		_Extract_MoveMod('A7-BagsOfTorment-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ajantis_BG1_Expansion-16') Then
-		FileWrite($g_LogFile, '>Ajantis_BG1_Expansion-16\* .' & @CRLF)
-		_Extract_MoveMod('Ajantis_BG1_Expansion-16')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ajantis_BG1_Expansion-17') Then
+		FileWrite($g_LogFile, '>Ajantis_BG1_Expansion-17\* .' & @CRLF)
+		_Extract_MoveMod('Ajantis_BG1_Expansion-17')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\StuffofTheMagi-6.0.0') Then
 		FileWrite($g_LogFile, '>StuffofTheMagi-6.0.0\* .' & @CRLF)
