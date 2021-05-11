@@ -423,9 +423,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>AzengaardEE-master\* .' & @CRLF)
 		_Extract_MoveMod('AzengaardEE-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ToA-3.0') Then
-		FileWrite($g_LogFile, '>ToA-3.0\* .' & @CRLF)
-		_Extract_MoveMod('ToA-3.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ToA-3.1') Then
+		FileWrite($g_LogFile, '>ToA-3.1\* .' & @CRLF)
+		_Extract_MoveMod('ToA-3.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\FishingForTrouble-3.2.7') Then
 		FileWrite($g_LogFile, '>FishingForTrouble-3.2.7\* .' & @CRLF)
