@@ -463,9 +463,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>hiddenadventure-master\* .' & @CRLF)
 		_Extract_MoveMod('hiddenadventure-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\d5_Random_Tweaks-0.9.5') Then
-		FileWrite($g_LogFile, '>d5_Random_Tweaks-0.9.5\* .' & @CRLF)
-		_Extract_MoveMod('d5_Random_Tweaks-0.9.5')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\d5_Random_Tweaks-1.1') Then
+		FileWrite($g_LogFile, '>d5_Random_Tweaks-1.1\* .' & @CRLF)
+		_Extract_MoveMod('d5_Random_Tweaks-1.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-LightingPackEE-master') Then
 		FileWrite($g_LogFile, '>A7-LightingPackEE-master\* .' & @CRLF)
@@ -1075,9 +1075,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>subtledoctor-EE_APR_Fix-1c6057b\* .' & @CRLF)
 		_Extract_MoveMod('subtledoctor-EE_APR_Fix-1c6057b')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.30') Then
-		FileWrite($g_LogFile, '>Scales_of_Balance-5.30\* .' & @CRLF)
-		_Extract_MoveMod('Scales_of_Balance-5.30')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.31') Then
+		FileWrite($g_LogFile, '>Scales_of_Balance-5.31\* .' & @CRLF)
+		_Extract_MoveMod('Scales_of_Balance-5.31')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Darron-2.0.0') Then
 		FileWrite($g_LogFile, '>Darron-2.0.0\* .' & @CRLF)
