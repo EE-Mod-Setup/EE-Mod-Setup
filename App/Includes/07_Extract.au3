@@ -543,9 +543,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>ChloeEET-1.7_EE\* .' & @CRLF)
 		_Extract_MoveMod('ChloeEET-1.7_EE')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Corwin-1.0') Then
-		FileWrite($g_LogFile, '>Corwin-1.0\* .' & @CRLF)
-		_Extract_MoveMod('Corwin-1.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Corwin-1.1') Then
+		FileWrite($g_LogFile, '>Corwin-1.1\* .' & @CRLF)
+		_Extract_MoveMod('Corwin-1.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Subrace-mod-0.2.1') Then
 		FileWrite($g_LogFile, '>Subrace-mod-0.2.1\* .' & @CRLF)
