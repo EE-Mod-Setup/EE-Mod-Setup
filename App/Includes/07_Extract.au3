@@ -387,9 +387,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Finch-master\* .' & @CRLF)
 		_Extract_MoveMod('Finch-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\EET-1.0RC12.2') Then
-		FileWrite($g_LogFile, '>EET-1.0RC12.2\* .' & @CRLF)
-		_Extract_MoveMod('EET-1.0RC12.2')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\EET-13') Then
+		FileWrite($g_LogFile, '>EET-13\* .' & @CRLF)
+		_Extract_MoveMod('EET-13')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AC_QUEST-3.0') Then
 		FileWrite($g_LogFile, '>AC_QUEST-3.0\* .' & @CRLF)
