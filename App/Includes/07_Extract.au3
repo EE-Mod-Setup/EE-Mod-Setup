@@ -615,9 +615,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>HaerDalis_Swords-3.1.0\* .' & @CRLF)
 		_Extract_MoveMod('HaerDalis_Swords-3.1.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Neera_Expansion-1.2.0') Then
-		FileWrite($g_LogFile, '>Neera_Expansion-1.2.0\* .' & @CRLF)
-		_Extract_MoveMod('Neera_Expansion-1.2.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Neera_Expansion-1.3.0') Then
+		FileWrite($g_LogFile, '>Neera_Expansion-1.3.0\* .' & @CRLF)
+		_Extract_MoveMod('Neera_Expansion-1.3.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\artaport-master') Then
 		FileWrite($g_LogFile, '>artaport-master\* .' & @CRLF)
