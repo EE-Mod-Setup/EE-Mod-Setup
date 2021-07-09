@@ -699,9 +699,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>KidoEE-master\* .' & @CRLF)
 		_Extract_MoveMod('KidoEE-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\rr-master') Then
-		FileWrite($g_LogFile, '>rr-master\* .' & @CRLF)
-		_Extract_MoveMod('rr-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Lore_From_Learning-3') Then
+		FileWrite($g_LogFile, '>Lore_From_Learning-3\* .' & @CRLF)
+		_Extract_MoveMod('Lore_From_Learning-3')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Keldorn_Romance-master') Then
 		FileWrite($g_LogFile, '>Keldorn_Romance-master\* .' & @CRLF)
