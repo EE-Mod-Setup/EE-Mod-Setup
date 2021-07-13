@@ -967,6 +967,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>SpiritHunterShamantKit-master\* .' & @CRLF)
 		_Extract_MoveMod('SpiritHunterShamantKit-master')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\JansAlchemy-8.1.0') Then
+		FileWrite($g_LogFile, '>JansAlchemy-8.1.0\* .' & @CRLF)
+		_Extract_MoveMod('JansAlchemy-8.1.0')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\LeUI-master') Then
 		FileWrite($g_LogFile, '>LeUI-master\* .' & @CRLF)
 		_Extract_MoveMod('LeUI-master')
