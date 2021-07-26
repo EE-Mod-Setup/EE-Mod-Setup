@@ -771,6 +771,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>DragonspearUI-21.07.0\* .' & @CRLF)
 		_Extract_MoveMod('DragonspearUI-21.07.0')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Recorder-BG1-master') Then
+		FileWrite($g_LogFile, '>Recorder-BG1-master\* .' & @CRLF)
+		_Extract_MoveMod('Recorder-BG1-master')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\RoseRE-master') Then
 		FileWrite($g_LogFile, '>RoseRE-master\* .' & @CRLF)
 		_Extract_MoveMod('RoseRE-master')
