@@ -767,9 +767,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Romantic_Encounters_BG2-master\* .' & @CRLF)
 		_Extract_MoveMod('Romantic_Encounters_BG2-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG1_Romantic_Encounters-6.0') Then
-		FileWrite($g_LogFile, '>BG1_Romantic_Encounters-6.0\* .' & @CRLF)
-		_Extract_MoveMod('BG1_Romantic_Encounters-6.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DragonspearUI-21.07.0') Then
+		FileWrite($g_LogFile, '>DragonspearUI-21.07.0\* .' & @CRLF)
+		_Extract_MoveMod('DragonspearUI-21.07.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\RoseRE-master') Then
 		FileWrite($g_LogFile, '>RoseRE-master\* .' & @CRLF)
