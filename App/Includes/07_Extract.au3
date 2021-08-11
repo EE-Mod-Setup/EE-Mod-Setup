@@ -767,9 +767,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Romantic_Encounters_BG2-master\* .' & @CRLF)
 		_Extract_MoveMod('Romantic_Encounters_BG2-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DragonspearUI-21.07.1') Then
-		FileWrite($g_LogFile, '>DragonspearUI-21.07.1\* .' & @CRLF)
-		_Extract_MoveMod('DragonspearUI-21.07.1')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DragonspearUI-21.08.0') Then
+		FileWrite($g_LogFile, '>DragonspearUI-21.08.0\* .' & @CRLF)
+		_Extract_MoveMod('DragonspearUI-21.08.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Recorder-BG1-master') Then
 		FileWrite($g_LogFile, '>Recorder-BG1-master\* .' & @CRLF)
@@ -1179,9 +1179,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>CerndFriendship-1.2\* .' & @CRLF)
 		_Extract_MoveMod('CerndFriendship-1.2')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HTaM-v.3.1') Then
-		FileWrite($g_LogFile, '>HTaM-v.3.1\* .' & @CRLF)
-		_Extract_MoveMod('HTaM-v.3.1')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HTaM-v.3.3') Then
+		FileWrite($g_LogFile, '>HTaM-v.3.3\* .' & @CRLF)
+		_Extract_MoveMod('HTaM-v.3.3')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Shadow-Magic-master') Then
 		FileWrite($g_LogFile, '>Shadow-Magic-master\* .' & @CRLF)
