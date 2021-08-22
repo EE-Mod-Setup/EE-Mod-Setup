@@ -599,9 +599,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Edwin_Romance-2.11\* .' & @CRLF)
 		_Extract_MoveMod('Edwin_Romance-2.11')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\EEUITweaks-3.6') Then
-		FileWrite($g_LogFile, '>EEUITweaks-3.6\* .' & @CRLF)
-		_Extract_MoveMod('EEUITweaks-3.6')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\EEUITweaks-3.7.1') Then
+		FileWrite($g_LogFile, '>EEUITweaks-3.7.1\* .' & @CRLF)
+		_Extract_MoveMod('EEUITweaks-3.7.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\EEUITweaks-3.5') Then
 		FileWrite($g_LogFile, '>EEUITweaks-3.5\* .' & @CRLF)
