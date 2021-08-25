@@ -1087,9 +1087,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>subtledoctor-EE_APR_Fix-1c6057b\* .' & @CRLF)
 		_Extract_MoveMod('subtledoctor-EE_APR_Fix-1c6057b')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.32') Then
-		FileWrite($g_LogFile, '>Scales_of_Balance-5.32\* .' & @CRLF)
-		_Extract_MoveMod('Scales_of_Balance-5.32')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.32.6') Then
+		FileWrite($g_LogFile, '>Scales_of_Balance-5.32.6\* .' & @CRLF)
+		_Extract_MoveMod('Scales_of_Balance-5.32.6')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Darron-2.0.0') Then
 		FileWrite($g_LogFile, '>Darron-2.0.0\* .' & @CRLF)
