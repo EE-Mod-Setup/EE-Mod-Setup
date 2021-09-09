@@ -1087,17 +1087,17 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>subtledoctor-EE_APR_Fix-1c6057b\* .' & @CRLF)
 		_Extract_MoveMod('subtledoctor-EE_APR_Fix-1c6057b')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.32.6') Then
-		FileWrite($g_LogFile, '>Scales_of_Balance-5.32.6\* .' & @CRLF)
-		_Extract_MoveMod('Scales_of_Balance-5.32.6')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.33') Then
+		FileWrite($g_LogFile, '>Scales_of_Balance-5.33\* .' & @CRLF)
+		_Extract_MoveMod('Scales_of_Balance-5.33')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Darron-2.0.0') Then
 		FileWrite($g_LogFile, '>Darron-2.0.0\* .' & @CRLF)
 		_Extract_MoveMod('Darron-2.0.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Enhanced-Powergaming-Scripts-main') Then
-		FileWrite($g_LogFile, '>Enhanced-Powergaming-Scripts-main\* .' & @CRLF)
-		_Extract_MoveMod('Enhanced-Powergaming-Scripts-main')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Enhanced-Powergaming-Scripts-5.0') Then
+		FileWrite($g_LogFile, '>Enhanced-Powergaming-Scripts-5.0\* .' & @CRLF)
+		_Extract_MoveMod('Enhanced-Powergaming-Scripts-5.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Continuous_NPC_Portraits-1') Then
 		FileWrite($g_LogFile, '>Continuous_NPC_Portraits-1\* .' & @CRLF)
