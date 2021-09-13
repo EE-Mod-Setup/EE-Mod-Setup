@@ -1095,9 +1095,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Darron-2.0.0\* .' & @CRLF)
 		_Extract_MoveMod('Darron-2.0.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Enhanced-Powergaming-Scripts-5.0') Then
-		FileWrite($g_LogFile, '>Enhanced-Powergaming-Scripts-5.0\* .' & @CRLF)
-		_Extract_MoveMod('Enhanced-Powergaming-Scripts-5.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Enhanced-Powergaming-Scripts-5.2') Then
+		FileWrite($g_LogFile, '>Enhanced-Powergaming-Scripts-5.2\* .' & @CRLF)
+		_Extract_MoveMod('Enhanced-Powergaming-Scripts-5.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Continuous_NPC_Portraits-1') Then
 		FileWrite($g_LogFile, '>Continuous_NPC_Portraits-1\* .' & @CRLF)
