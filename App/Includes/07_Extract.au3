@@ -391,9 +391,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>EET-master\* .' & @CRLF)
 		_Extract_MoveMod('EET-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AC_QUEST-3.0') Then
-		FileWrite($g_LogFile, '>AC_QUEST-3.0\* .' & @CRLF)
-		_Extract_MoveMod('AC_QUEST-3.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Travellers-master') Then
+		FileWrite($g_LogFile, '>Travellers-master\* .' & @CRLF)
+		_Extract_MoveMod('Travellers-master')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AjocMod-master') Then
 		FileWrite($g_LogFile, '>AjocMod-master\* .' & @CRLF)
