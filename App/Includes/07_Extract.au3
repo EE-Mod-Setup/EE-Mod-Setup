@@ -707,6 +707,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Keldorn_Romance-master\* .' & @CRLF)
 		_Extract_MoveMod('Keldorn_Romance-master')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Lure_Of_Sirines_Call-16.2') Then
+		FileWrite($g_LogFile, '>Lure_Of_Sirines_Call-16.2\* .' & @CRLF)
+		_Extract_MoveMod('Lure_Of_Sirines_Call-16.2')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ImprovedArcher-master') Then
 		FileWrite($g_LogFile, '>A7-ImprovedArcher-master\* .' & @CRLF)
 		_Extract_MoveMod('A7-ImprovedArcher-master')
@@ -1207,9 +1211,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>bgee-animus-master\* .' & @CRLF)
 		_Extract_MoveMod('bgee-animus-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AurenAseph-11') Then
-		FileWrite($g_LogFile, '>AurenAseph-11\* .' & @CRLF)
-		_Extract_MoveMod('AurenAseph-11')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AurenAseph-12') Then
+		FileWrite($g_LogFile, '>AurenAseph-12\* .' & @CRLF)
+		_Extract_MoveMod('AurenAseph-12')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sarah-6') Then
 		FileWrite($g_LogFile, '>Sarah-6\* .' & @CRLF)
