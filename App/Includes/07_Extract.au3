@@ -999,6 +999,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>BG_Quests_And_Encounters-master\* .' & @CRLF)
 		_Extract_MoveMod('BG_Quests_And_Encounters-master')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG1_Romantic_Encounters-9.0') Then
+		FileWrite($g_LogFile, '>BG1_Romantic_Encounters-9.0\* .' & @CRLF)
+		_Extract_MoveMod('BG1_Romantic_Encounters-9.0')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Rupert-master') Then
 		FileWrite($g_LogFile, '>Rupert-master\* .' & @CRLF)
 		_Extract_MoveMod('Rupert-master')
