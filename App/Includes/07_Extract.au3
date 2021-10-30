@@ -515,9 +515,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Ascension-master\* .' & @CRLF)
 		_Extract_MoveMod('Ascension-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MadeInHeaven_ItemPack-master') Then
-		FileWrite($g_LogFile, '>MadeInHeaven_ItemPack-master\* .' & @CRLF)
-		_Extract_MoveMod('MadeInHeaven_ItemPack-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MadeInHeaven_ItemPack-6') Then
+		FileWrite($g_LogFile, '>MadeInHeaven_ItemPack-6\* .' & @CRLF)
+		_Extract_MoveMod('MadeInHeaven_ItemPack-6')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ArienaEE-3.0') Then
 		FileWrite($g_LogFile, '>ArienaEE-3.0\* .' & @CRLF)
