@@ -16,7 +16,7 @@
 - assistance for creating your own customized game with any number of mods
 - downloading current versions of selected mods
 - easy mod installation for EET
-- support of patch 2.5
+- support of patch 2.6
 - correct install order of mods/components
 - optimized process for a fast performance
 - handle mod and components conflicts
@@ -29,13 +29,13 @@
 
 - Baldur's Gate: Enhanced Edition (standalone game, v2.3 or later)
 - Baldur's Gate II: Enhanced Edition (standalone game, v2.3 or later)
-- Enhanced Edition Trilogy EET( BG1:EE + SoD + BG2:EE, both games must be v2.5 or later)
+- Enhanced Edition Trilogy EET( BG1:EE + SoD + BG2:EE, both games must be v2.6 or later)
 - Planescape: Torment Enhanced Edition
 - Icewind Dale: Enhanced Edition
 
 ### Supported mods ###
 
-- All actively maintained or properly completed ones! (make a pull request if there is a mod you want added)
+- All actively maintained or properly completed ones! (make a pull request if there is a mod you want added) No game conversions or content removal mods are supported.
 
 ### Getting started ###
 
