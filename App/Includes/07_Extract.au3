@@ -911,9 +911,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Gibberlings3-Anishai-c1368e4\* .' & @CRLF)
 		_Extract_MoveMod('Gibberlings3-Anishai-c1368e4')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\GwendolyneFreddy-butchery-d7d154c') Then
-		FileWrite($g_LogFile, '>GwendolyneFreddy-butchery-d7d154c\* .' & @CRLF)
-		_Extract_MoveMod('GwendolyneFreddy-butchery-d7d154c')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\butchery-5.0.0') Then
+		FileWrite($g_LogFile, '>butchery-5.0.0\* .' & @CRLF)
+		_Extract_MoveMod('butchery-5.0.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Solaufeins_Rescue_NPC-2Beta') Then
 		FileWrite($g_LogFile, '>Solaufeins_Rescue_NPC-2Beta\* .' & @CRLF)
