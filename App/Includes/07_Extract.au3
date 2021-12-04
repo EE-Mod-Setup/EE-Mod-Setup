@@ -1159,9 +1159,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>NaliaEE-6.2\* .' & @CRLF)
 		_Extract_MoveMod('NaliaEE-6.2')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DrizztSaga-3.02') Then
-		FileWrite($g_LogFile, '>DrizztSaga-3.02\* .' & @CRLF)
-		_Extract_MoveMod('DrizztSaga-3.02')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DrizztSaga-3.03') Then
+		FileWrite($g_LogFile, '>DrizztSaga-3.03\* .' & @CRLF)
+		_Extract_MoveMod('DrizztSaga-3.03')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\refinements-4.29') Then
 		FileWrite($g_LogFile, '>refinements-4.29\* .' & @CRLF)
