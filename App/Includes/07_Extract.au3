@@ -1195,9 +1195,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>CerndFriendship-1.2\* .' & @CRLF)
 		_Extract_MoveMod('CerndFriendship-1.2')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HTaM-v.3.5.2') Then
-		FileWrite($g_LogFile, '>HTaM-v.3.5.2\* .' & @CRLF)
-		_Extract_MoveMod('HTaM-v.3.5.2')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HTaM-v.3.6.2') Then
+		FileWrite($g_LogFile, '>HTaM-v.3.6.2\* .' & @CRLF)
+		_Extract_MoveMod('HTaM-v.3.6.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Shadow-Magic-master') Then
 		FileWrite($g_LogFile, '>Shadow-Magic-master\* .' & @CRLF)
