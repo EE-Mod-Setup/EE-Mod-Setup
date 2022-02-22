@@ -847,6 +847,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>d5_Random_Tweaks-1.4\* .' & @CRLF)
 		_Extract_MoveMod('d5_Random_Tweaks-1.4')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG2EE-russian-1.9') Then
+		FileWrite($g_LogFile, '>BG2EE-russian-1.9\* .' & @CRLF)
+		_Extract_MoveMod('BG2EE-russian-1.9')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TowerOfDeception-5.0.1') Then
 		FileWrite($g_LogFile, '>TowerOfDeception-5.0.1\* .' & @CRLF)
 		_Extract_MoveMod('TowerOfDeception-5.0.1')
