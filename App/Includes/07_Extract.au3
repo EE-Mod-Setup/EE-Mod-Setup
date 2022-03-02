@@ -463,9 +463,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>hiddenadventure-master\* .' & @CRLF)
 		_Extract_MoveMod('hiddenadventure-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\d5_Random_Tweaks-1.2.1') Then
-		FileWrite($g_LogFile, '>d5_Random_Tweaks-1.2.1\* .' & @CRLF)
-		_Extract_MoveMod('d5_Random_Tweaks-1.2.1')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\d5_Random_Tweaks-1.4.2') Then
+		FileWrite($g_LogFile, '>d5_Random_Tweaks-1.4.2\* .' & @CRLF)
+		_Extract_MoveMod('d5_Random_Tweaks-1.4.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-LightingPackEE-master') Then
 		FileWrite($g_LogFile, '>A7-LightingPackEE-master\* .' & @CRLF)
@@ -839,13 +839,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>NPC_EE-5.0b8\* .' & @CRLF)
 		_Extract_MoveMod('NPC_EE-5.0b8')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.37.1') Then
-		FileWrite($g_LogFile, '>Scales_of_Balance-5.37.1\* .' & @CRLF)
-		_Extract_MoveMod('Scales_of_Balance-5.37.1')
-	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\d5_Random_Tweaks-1.4') Then
-		FileWrite($g_LogFile, '>d5_Random_Tweaks-1.4\* .' & @CRLF)
-		_Extract_MoveMod('d5_Random_Tweaks-1.4')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.37.4') Then
+		FileWrite($g_LogFile, '>Scales_of_Balance-5.37.4\* .' & @CRLF)
+		_Extract_MoveMod('Scales_of_Balance-5.37.4')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG2EE-russian-ndash') Then
 		FileWrite($g_LogFile, '>BG2EE-russian-ndash\* .' & @CRLF)
@@ -1102,10 +1098,6 @@ Func Au3ExFix($p_Num)
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Warlock-master') Then
 		FileWrite($g_LogFile, '>Warlock-master\* .' & @CRLF)
 		_Extract_MoveMod('Warlock-master')
-	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.37.2') Then
-		FileWrite($g_LogFile, '>Scales_of_Balance-5.37.2\* .' & @CRLF)
-		_Extract_MoveMod('Scales_of_Balance-5.37.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Bardic-Wonders-master') Then
 		FileWrite($g_LogFile, '>Bardic-Wonders-master\* .' & @CRLF)
