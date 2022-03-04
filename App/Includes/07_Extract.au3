@@ -403,6 +403,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Ascalons_Breagar-11.4.0\* .' & @CRLF)
 		_Extract_MoveMod('Ascalons_Breagar-11.4.0')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Xan_for_BGII-19') Then
+		FileWrite($g_LogFile, '>Xan_for_BGII-19\* .' & @CRLF)
+		_Extract_MoveMod('Xan_for_BGII-19')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Aura_BG1-master') Then
 		FileWrite($g_LogFile, '>Aura_BG1-master\* .' & @CRLF)
 		_Extract_MoveMod('Aura_BG1-master')
