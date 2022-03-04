@@ -399,9 +399,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>AjocMod-master\* .' & @CRLF)
 		_Extract_MoveMod('AjocMod-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ACBre-master') Then
-		FileWrite($g_LogFile, '>ACBre-master\* .' & @CRLF)
-		_Extract_MoveMod('ACBre-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascalons_Breagar-11.4.0') Then
+		FileWrite($g_LogFile, '>Ascalons_Breagar-11.4.0\* .' & @CRLF)
+		_Extract_MoveMod('Ascalons_Breagar-11.4.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Aura_BG1-master') Then
 		FileWrite($g_LogFile, '>Aura_BG1-master\* .' & @CRLF)
