@@ -843,9 +843,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>NPC_EE-5.0b8\* .' & @CRLF)
 		_Extract_MoveMod('NPC_EE-5.0b8')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.37.4') Then
-		FileWrite($g_LogFile, '>Scales_of_Balance-5.37.4\* .' & @CRLF)
-		_Extract_MoveMod('Scales_of_Balance-5.37.4')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Scales_of_Balance-5.37.5') Then
+		FileWrite($g_LogFile, '>Scales_of_Balance-5.37.5\* .' & @CRLF)
+		_Extract_MoveMod('Scales_of_Balance-5.37.5')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG2EE-russian-ndash') Then
 		FileWrite($g_LogFile, '>BG2EE-russian-ndash\* .' & @CRLF)
