@@ -467,9 +467,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>hiddenadventure-master\* .' & @CRLF)
 		_Extract_MoveMod('hiddenadventure-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\d5_Random_Tweaks-1.4.2') Then
-		FileWrite($g_LogFile, '>d5_Random_Tweaks-1.4.2\* .' & @CRLF)
-		_Extract_MoveMod('d5_Random_Tweaks-1.4.2')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\d5_Random_Tweaks-1.5.1') Then
+		FileWrite($g_LogFile, '>d5_Random_Tweaks-1.5.1\* .' & @CRLF)
+		_Extract_MoveMod('d5_Random_Tweaks-1.5.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-LightingPackEE-master') Then
 		FileWrite($g_LogFile, '>A7-LightingPackEE-master\* .' & @CRLF)
