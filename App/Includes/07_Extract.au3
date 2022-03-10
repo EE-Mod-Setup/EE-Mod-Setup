@@ -863,9 +863,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Pai-Na-NPC-mod-for-BG2-EE-master\* .' & @CRLF)
 		_Extract_MoveMod('Pai-Na-NPC-mod-for-BG2-EE-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Tweaks-Anthology-10') Then
-		FileWrite($g_LogFile, '>Tweaks-Anthology-10\* .' & @CRLF)
-		_Extract_MoveMod('Tweaks-Anthology-10')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Tweaks-Anthology-11') Then
+		FileWrite($g_LogFile, '>Tweaks-Anthology-11\* .' & @CRLF)
+		_Extract_MoveMod('Tweaks-Anthology-11')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TyrisEE-master') Then
 		FileWrite($g_LogFile, '>TyrisEE-master\* .' & @CRLF)
