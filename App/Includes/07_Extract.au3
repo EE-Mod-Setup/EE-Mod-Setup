@@ -839,9 +839,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>RuadEE-master\* .' & @CRLF)
 		_Extract_MoveMod('RuadEE-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NPC_EE-5.0b8') Then
-		FileWrite($g_LogFile, '>NPC_EE-5.0b8\* .' & @CRLF)
-		_Extract_MoveMod('NPC_EE-5.0b8')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NPC_EE-5.1.3') Then
+		FileWrite($g_LogFile, '>NPC_EE-5.1.3\* .' & @CRLF)
+		_Extract_MoveMod('NPC_EE-5.1.3')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG2EE-russian-ndash') Then
 		FileWrite($g_LogFile, '>BG2EE-russian-ndash\* .' & @CRLF)
