@@ -711,9 +711,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Keldorn_Romance-master\* .' & @CRLF)
 		_Extract_MoveMod('Keldorn_Romance-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Lure_Of_Sirines_Call-16.2') Then
-		FileWrite($g_LogFile, '>Lure_Of_Sirines_Call-16.2\* .' & @CRLF)
-		_Extract_MoveMod('Lure_Of_Sirines_Call-16.2')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Lure_Of_Sirines_Call-16.3') Then
+		FileWrite($g_LogFile, '>Lure_Of_Sirines_Call-16.3\* .' & @CRLF)
+		_Extract_MoveMod('Lure_Of_Sirines_Call-16.3')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ImprovedArcher-master') Then
 		FileWrite($g_LogFile, '>A7-ImprovedArcher-master\* .' & @CRLF)
