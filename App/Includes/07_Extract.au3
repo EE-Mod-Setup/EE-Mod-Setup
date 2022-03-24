@@ -435,9 +435,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>FishingForTrouble-3.2.8\* .' & @CRLF)
 		_Extract_MoveMod('FishingForTrouble-3.2.8')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Magestronghold-0.4') Then
-		FileWrite($g_LogFile, '>Magestronghold-0.4\* .' & @CRLF)
-		_Extract_MoveMod('Magestronghold-0.4')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Magestronghold-0.5') Then
+		FileWrite($g_LogFile, '>Magestronghold-0.5\* .' & @CRLF)
+		_Extract_MoveMod('Magestronghold-0.5')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MilitiaOfficer-Kit-master') Then
 		FileWrite($g_LogFile, '>MilitiaOfficer-Kit-master\* .' & @CRLF)
