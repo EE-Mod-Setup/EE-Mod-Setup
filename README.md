@@ -4,11 +4,11 @@
 
 **Download**             : https://github.com/EE-Mod-Setup/EE-Mod-Setup/archive/master.zip
 
-**Mod requests**		 : Create a pull request or ask here http://baldursextendedworld.com/Vanilla_Forums/categories/install-tool-help
+**Mod requests**		 : Create a pull request or ask here https://github.com/EE-Mod-Setup/EE-Mod-Setup/issues
 
 **Contribute Compilation** : Create a pull request with an ini file or weidu.log(s)
 
-**Support**				 : https://baldursextendedworld.com/Install-Tool/
+**Support**				 : https://github.com/EE-Mod-Setup/EE-Mod-Setup/issues
 
 
 ### Features ###
@@ -51,8 +51,3 @@ Note: If you reuse the tool and you kept the previously downloaded mods stored, 
 9. Use the *Back* button to leave mod selection - at this point you may be shown conflicts or problems you have in your selection and you can resolve those with the help provided in the menus
 10. When you have established a mod selection you are happy with *continue* and follow the instructions.
 
-### How do I contribute? ###
-
-- fork the main project repository using "SourceTree" or "SmartGit" or other preferred tool
-- add mods/make other changes 
-- create a pull request to submit changes from your fork back to the main project
