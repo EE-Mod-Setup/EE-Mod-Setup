@@ -29,16 +29,16 @@
 
 - Baldur's Gate: Enhanced Edition (standalone game, v2.3 or later)
 - Baldur's Gate II: Enhanced Edition (standalone game, v2.3 or later)
-- Enhanced Edition Trilogy EET( BG1:EE + SoD + BG2:EE, both games must be v2.6 or later)
+- Enhanced Edition Trilogy EET( BG1:EE + SoD + BG2:EE, both games must be v2.6 or later - optional IWD1 in EET)
 - Planescape: Torment Enhanced Edition
 - Icewind Dale: Enhanced Edition
 
 ### Supported mods ###
 
-- All actively maintained or properly completed ones! (make a pull request if there is a mod you want added) No game conversions or content removal mods are supported.
+Many actively maintained or properly completed ones that fit into large compatible installations. No game conversions or content removal mods are supported to assure compatibility of the installed game.
 
 ### Getting started ###
-
+A detailed description pdf-file is in the tool download package in the documents folder.
 1. Download application zip archive and extract it anywhere you want (but not in your game folder!)
 2. Close any open games and game editors to avoid interference with the installation process
 3. Disable your antivirus (only while you are installing - don't forget to re-enable it after!)
