@@ -399,9 +399,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>AjocMod-master\* .' & @CRLF)
 		_Extract_MoveMod('AjocMod-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascalons_Breagar-11.4.0') Then
-		FileWrite($g_LogFile, '>Ascalons_Breagar-11.4.0\* .' & @CRLF)
-		_Extract_MoveMod('Ascalons_Breagar-11.4.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascalons_Breagar-12.0.0') Then
+		FileWrite($g_LogFile, '>Ascalons_Breagar-12.0.0\* .' & @CRLF)
+		_Extract_MoveMod('Ascalons_Breagar-12.0.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Xan_for_BGII-19') Then
 		FileWrite($g_LogFile, '>Xan_for_BGII-19\* .' & @CRLF)
@@ -1263,9 +1263,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Adrian_NPC-5.0\* .' & @CRLF)
 		_Extract_MoveMod('Adrian_NPC-5.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Branwen_for_BGII-7') Then
-		FileWrite($g_LogFile, '>Branwen_for_BGII-7\* .' & @CRLF)
-		_Extract_MoveMod('Branwen_for_BGII-7')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Branwen_for_BGII-8') Then
+		FileWrite($g_LogFile, '>Branwen_for_BGII-8\* .' & @CRLF)
+		_Extract_MoveMod('Branwen_for_BGII-8')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Raduziels-Universal-Wizard-Spells-master') Then
 		FileWrite($g_LogFile, '>Raduziels-Universal-Wizard-Spells-master\* .' & @CRLF)
