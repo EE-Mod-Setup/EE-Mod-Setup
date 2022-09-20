@@ -343,9 +343,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>bg1npcmusic-master\* .' & @CRLF)
 		_Extract_MoveMod('bg1npcmusic-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\CoranBGFriend-5') Then
-		FileWrite($g_LogFile, '>CoranBGFriend-5\* .' & @CRLF)
-		_Extract_MoveMod('CoranBGFriend-5')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\CoranBGFriend-5.2') Then
+		FileWrite($g_LogFile, '>CoranBGFriend-5.2\* .' & @CRLF)
+		_Extract_MoveMod('CoranBGFriend-5.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SheenaHD-master') Then
 		FileWrite($g_LogFile, '>SheenaHD-master\* .' & @CRLF)
