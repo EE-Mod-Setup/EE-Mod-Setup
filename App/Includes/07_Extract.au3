@@ -967,9 +967,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Divine_Remix-master\* .' & @CRLF)
 		_Extract_MoveMod('Divine_Remix-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Nephele_NPC-2.6') Then
-		FileWrite($g_LogFile, '>Nephele_NPC-2.6\* .' & @CRLF)
-		_Extract_MoveMod('Nephele_NPC-2.6')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Nephele_NPC-2.7') Then
+		FileWrite($g_LogFile, '>Nephele_NPC-2.7\* .' & @CRLF)
+		_Extract_MoveMod('Nephele_NPC-2.7')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Epic-Thieving-master') Then
 		FileWrite($g_LogFile, '>Epic-Thieving-master\* .' & @CRLF)
@@ -1319,9 +1319,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>KorganFriendship-1.6\* .' & @CRLF)
 		_Extract_MoveMod('KorganFriendship-1.6')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\IEP_Extended_Banter-5.7') Then
-		FileWrite($g_LogFile, '>IEP_Extended_Banter-5.7\* .' & @CRLF)
-		_Extract_MoveMod('IEP_Extended_Banter-5.7')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\IEP_Extended_Banter-5.9') Then
+		FileWrite($g_LogFile, '>IEP_Extended_Banter-5.9\* .' & @CRLF)
+		_Extract_MoveMod('IEP_Extended_Banter-5.9')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\mana_sorcerer-0.5') Then
 		FileWrite($g_LogFile, '>mana_sorcerer-0.5\* .' & @CRLF)
