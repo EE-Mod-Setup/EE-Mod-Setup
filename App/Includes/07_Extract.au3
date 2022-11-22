@@ -679,9 +679,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Gavin_BG2-master\* .' & @CRLF)
 		_Extract_MoveMod('Gavin_BG2-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Hlondeth-master') Then
-		FileWrite($g_LogFile, '>Hlondeth-master\* .' & @CRLF)
-		_Extract_MoveMod('Hlondeth-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Hlondeth-03g') Then
+		FileWrite($g_LogFile, '>Hlondeth-03g\* .' & @CRLF)
+		_Extract_MoveMod('Hlondeth-03g')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AstroBryGuy-JaheiraRecast-501290c') Then
 		FileWrite($g_LogFile, '>AstroBryGuy-JaheiraRecast-501290c\* .' & @CRLF)
@@ -807,9 +807,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Saerileth-22\* .' & @CRLF)
 		_Extract_MoveMod('Saerileth-22')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SafanaBG2-master') Then
-		FileWrite($g_LogFile, '>SafanaBG2-master\* .' & @CRLF)
-		_Extract_MoveMod('SafanaBG2-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SafanaBG2-04') Then
+		FileWrite($g_LogFile, '>SafanaBG2-04\* .' & @CRLF)
+		_Extract_MoveMod('SafanaBG2-04')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sirene-NPC-for-BG2-EE-master') Then
 		FileWrite($g_LogFile, '>Sirene-NPC-for-BG2-EE-master\* .' & @CRLF)
