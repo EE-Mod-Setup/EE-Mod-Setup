@@ -543,9 +543,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>BGEESpawn-master\* .' & @CRLF)
 		_Extract_MoveMod('BGEESpawn-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Caelar-1.2') Then
-		FileWrite($g_LogFile, '>Caelar-1.2\* .' & @CRLF)
-		_Extract_MoveMod('Caelar-1.2')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Caelar-1.3') Then
+		FileWrite($g_LogFile, '>Caelar-1.3\* .' & @CRLF)
+		_Extract_MoveMod('Caelar-1.3')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\The-Rune-master') Then
 		FileWrite($g_LogFile, '>The-Rune-master\* .' & @CRLF)
