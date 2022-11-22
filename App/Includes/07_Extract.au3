@@ -327,9 +327,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Kim_Pirate-master\* .' & @CRLF)
 		_Extract_MoveMod('Kim_Pirate-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HaveIce-master') Then
-		FileWrite($g_LogFile, '>HaveIce-master\* .' & @CRLF)
-		_Extract_MoveMod('HaveIce-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HaveIce-03f') Then
+		FileWrite($g_LogFile, '>HaveIce-03f\* .' & @CRLF)
+		_Extract_MoveMod('HaveIce-03f')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MasterVampire-master') Then
 		FileWrite($g_LogFile, '>MasterVampire-master\* .' & @CRLF)
@@ -383,9 +383,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Indira-master\* .' & @CRLF)
 		_Extract_MoveMod('Indira-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Finch-master') Then
-		FileWrite($g_LogFile, '>Finch-master\* .' & @CRLF)
-		_Extract_MoveMod('Finch-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Finch-53') Then
+		FileWrite($g_LogFile, '>Finch-53\* .' & @CRLF)
+		_Extract_MoveMod('Finch-53')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\EET-master') Then
 		FileWrite($g_LogFile, '>EET-master\* .' & @CRLF)
@@ -495,9 +495,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Balduran-s-Sea-Tower-master\* .' & @CRLF)
 		_Extract_MoveMod('Balduran-s-Sea-Tower-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Gorion-s-Dream-master') Then
-		FileWrite($g_LogFile, '>Gorion-s-Dream-master\* .' & @CRLF)
-		_Extract_MoveMod('Gorion-s-Dream-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Gorion-s-Dream-0.9a') Then
+		FileWrite($g_LogFile, '>Gorion-s-Dream-0.9a\* .' & @CRLF)
+		_Extract_MoveMod('Gorion-s-Dream-0.9a')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Alternatives-master') Then
 		FileWrite($g_LogFile, '>Alternatives-master\* .' & @CRLF)
@@ -1167,9 +1167,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>TomeAndBlood-master\* .' & @CRLF)
 		_Extract_MoveMod('TomeAndBlood-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ehlastra-master') Then
-		FileWrite($g_LogFile, '>Ehlastra-master\* .' & @CRLF)
-		_Extract_MoveMod('Ehlastra-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ehlastra-0.5a') Then
+		FileWrite($g_LogFile, '>Ehlastra-0.5a\* .' & @CRLF)
+		_Extract_MoveMod('Ehlastra-0.5a')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sime-master') Then
 		FileWrite($g_LogFile, '>Sime-master\* .' & @CRLF)
