@@ -275,9 +275,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>HollytheElf-master\* .' & @CRLF)
 		_Extract_MoveMod('HollytheElf-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DrowLibrary-master') Then
-		FileWrite($g_LogFile, '>DrowLibrary-master\* .' & @CRLF)
-		_Extract_MoveMod('DrowLibrary-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DrowLibrary-0.4a') Then
+		FileWrite($g_LogFile, '>DrowLibrary-0.4a\* .' & @CRLF)
+		_Extract_MoveMod('DrowLibrary-0.4a')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Velvetfoot-master') Then
 		FileWrite($g_LogFile, '>Velvetfoot-master\* .' & @CRLF)
@@ -391,9 +391,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>EET-master\* .' & @CRLF)
 		_Extract_MoveMod('EET-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Travellers-master') Then
-		FileWrite($g_LogFile, '>Travellers-master\* .' & @CRLF)
-		_Extract_MoveMod('Travellers-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Travellers-0.82') Then
+		FileWrite($g_LogFile, '>Travellers-0.82\* .' & @CRLF)
+		_Extract_MoveMod('Travellers-0.82')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AjocMod-18') Then
 		FileWrite($g_LogFile, '>AjocMod-18\* .' & @CRLF)
@@ -575,9 +575,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>SandrahRtF-master\* .' & @CRLF)
 		_Extract_MoveMod('SandrahRtF-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DaceEET-master') Then
-		FileWrite($g_LogFile, '>DaceEET-master\* .' & @CRLF)
-		_Extract_MoveMod('DaceEET-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DaceEET-3.1b') Then
+		FileWrite($g_LogFile, '>DaceEET-3.1b\* .' & @CRLF)
+		_Extract_MoveMod('DaceEET-3.1b')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Check_the_Bodies-3.0') Then
 		FileWrite($g_LogFile, '>Check_the_Bodies-3.0\* .' & @CRLF)
