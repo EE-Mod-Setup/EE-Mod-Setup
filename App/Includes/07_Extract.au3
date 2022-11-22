@@ -727,9 +727,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>A7-ImprovedArcher-master\* .' & @CRLF)
 		_Extract_MoveMod('A7-ImprovedArcher-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Kitanya-Resurrected-master') Then
-		FileWrite($g_LogFile, '>Kitanya-Resurrected-master\* .' & @CRLF)
-		_Extract_MoveMod('Kitanya-Resurrected-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Kitanya-Resurrected-7.2') Then
+		FileWrite($g_LogFile, '>Kitanya-Resurrected-7.2\* .' & @CRLF)
+		_Extract_MoveMod('Kitanya-Resurrected-7.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\LongerRoadEE-1.9') Then
 		FileWrite($g_LogFile, '>LongerRoadEE-1.9\* .' & @CRLF)
@@ -803,9 +803,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>BoneHill-33\* .' & @CRLF)
 		_Extract_MoveMod('BoneHill-33')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Saerileth-master') Then
-		FileWrite($g_LogFile, '>Saerileth-master\* .' & @CRLF)
-		_Extract_MoveMod('Saerileth-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Saerileth-22') Then
+		FileWrite($g_LogFile, '>Saerileth-22\* .' & @CRLF)
+		_Extract_MoveMod('Saerileth-22')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SafanaBG2-master') Then
 		FileWrite($g_LogFile, '>SafanaBG2-master\* .' & @CRLF)
