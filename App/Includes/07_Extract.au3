@@ -507,9 +507,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Haldamir-master\* .' & @CRLF)
 		_Extract_MoveMod('Haldamir-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\haerdalisromance-master') Then
-		FileWrite($g_LogFile, '>haerdalisromance-master\* .' & @CRLF)
-		_Extract_MoveMod('haerdalisromance-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\haerdalisromance-2.2') Then
+		FileWrite($g_LogFile, '>haerdalisromance-2.2\* .' & @CRLF)
+		_Extract_MoveMod('haerdalisromance-2.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Angelo-master') Then
 		FileWrite($g_LogFile, '>Angelo-master\* .' & @CRLF)
@@ -519,9 +519,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Corthala_Romantique-master\* .' & @CRLF)
 		_Extract_MoveMod('Corthala_Romantique-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ThePictureStandard-master') Then
-		FileWrite($g_LogFile, '>ThePictureStandard-master\* .' & @CRLF)
-		_Extract_MoveMod('ThePictureStandard-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ThePictureStandard-071') Then
+		FileWrite($g_LogFile, '>ThePictureStandard-071\* .' & @CRLF)
+		_Extract_MoveMod('ThePictureStandard-071')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascension-master') Then
 		FileWrite($g_LogFile, '>Ascension-master\* .' & @CRLF)
@@ -655,9 +655,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>StuffofTheMagi-6.0.0\* .' & @CRLF)
 		_Extract_MoveMod('StuffofTheMagi-6.0.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\amber-master') Then
-		FileWrite($g_LogFile, '>amber-master\* .' & @CRLF)
-		_Extract_MoveMod('amber-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\amber-5.05') Then
+		FileWrite($g_LogFile, '>amber-5.05\* .' & @CRLF)
+		_Extract_MoveMod('amber-5.05')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Rolles-5.0.5') Then
 		FileWrite($g_LogFile, '>Rolles-5.0.5\* .' & @CRLF)
@@ -831,9 +831,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Tamoko-0.9\* .' & @CRLF)
 		_Extract_MoveMod('Tamoko-0.9')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TDDz-1.5') Then
-		FileWrite($g_LogFile, '>TDDz-1.5\* .' & @CRLF)
-		_Extract_MoveMod('TDDz-1.5')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TDDz-1.6') Then
+		FileWrite($g_LogFile, '>TDDz-1.6\* .' & @CRLF)
+		_Extract_MoveMod('TDDz-1.6')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TGC1e-master') Then
 		FileWrite($g_LogFile, '>TGC1e-master\* .' & @CRLF)
@@ -1095,9 +1095,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>I-Hate-Undead-Kitpack-master\* .' & @CRLF)
 		_Extract_MoveMod('I-Hate-Undead-Kitpack-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sword-and-Fist-master') Then
-		FileWrite($g_LogFile, '>Sword-and-Fist-master\* .' & @CRLF)
-		_Extract_MoveMod('Sword-and-Fist-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sword-and-Fist-10') Then
+		FileWrite($g_LogFile, '>Sword-and-Fist-10\* .' & @CRLF)
+		_Extract_MoveMod('Sword-and-Fist-10')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Charlatan-Kit-master') Then
 		FileWrite($g_LogFile, '>Charlatan-Kit-master\* .' & @CRLF)
