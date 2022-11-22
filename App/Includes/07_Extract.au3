@@ -267,9 +267,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>bg1ub-master\* .' & @CRLF)
 		_Extract_MoveMod('bg1ub-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\CandlekeepMemories-master') Then
-		FileWrite($g_LogFile, '>CandlekeepMemories-master\* .' & @CRLF)
-		_Extract_MoveMod('CandlekeepMemories-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\CandlekeepMemories-03') Then
+		FileWrite($g_LogFile, '>CandlekeepMemories-03\* .' & @CRLF)
+		_Extract_MoveMod('CandlekeepMemories-03')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HollytheElf-master') Then
 		FileWrite($g_LogFile, '>HollytheElf-master\* .' & @CRLF)
@@ -431,9 +431,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Olvyn-Tweaks-master\* .' & @CRLF)
 		_Extract_MoveMod('Olvyn-Tweaks-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AzengaardEE-master') Then
-		FileWrite($g_LogFile, '>AzengaardEE-master\* .' & @CRLF)
-		_Extract_MoveMod('AzengaardEE-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AzengaardEE-71') Then
+		FileWrite($g_LogFile, '>AzengaardEE-71\* .' & @CRLF)
+		_Extract_MoveMod('AzengaardEE-71')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ToA-3.1') Then
 		FileWrite($g_LogFile, '>ToA-3.1\* .' & @CRLF)
@@ -1243,9 +1243,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Miriam-master\* .' & @CRLF)
 		_Extract_MoveMod('Miriam-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Asylum-master') Then
-		FileWrite($g_LogFile, '>Asylum-master\* .' & @CRLF)
-		_Extract_MoveMod('Asylum-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Asylum-201') Then
+		FileWrite($g_LogFile, '>Asylum-201\* .' & @CRLF)
+		_Extract_MoveMod('Asylum-201')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\bgee-animus-master') Then
 		FileWrite($g_LogFile, '>bgee-animus-master\* .' & @CRLF)
