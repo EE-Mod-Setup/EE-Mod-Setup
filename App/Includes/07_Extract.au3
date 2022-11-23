@@ -271,9 +271,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>CandlekeepMemories-03\* .' & @CRLF)
 		_Extract_MoveMod('CandlekeepMemories-03')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HollytheElf-master') Then
-		FileWrite($g_LogFile, '>HollytheElf-master\* .' & @CRLF)
-		_Extract_MoveMod('HollytheElf-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HollytheElf-03j') Then
+		FileWrite($g_LogFile, '>HollytheElf-03j\* .' & @CRLF)
+		_Extract_MoveMod('HollytheElf-03j')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DrowLibrary-0.4a') Then
 		FileWrite($g_LogFile, '>DrowLibrary-0.4a\* .' & @CRLF)
@@ -379,9 +379,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>TheBeaurinLegacy-master\* .' & @CRLF)
 		_Extract_MoveMod('TheBeaurinLegacy-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Indira-master') Then
-		FileWrite($g_LogFile, '>Indira-master\* .' & @CRLF)
-		_Extract_MoveMod('Indira-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Indira-13') Then
+		FileWrite($g_LogFile, '>Indira-13\* .' & @CRLF)
+		_Extract_MoveMod('Indira-13')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Finch-53') Then
 		FileWrite($g_LogFile, '>Finch-53\* .' & @CRLF)
@@ -459,9 +459,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Mercenary-Kit-master\* .' & @CRLF)
 		_Extract_MoveMod('Mercenary-Kit-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ImnesvaleEE-master') Then
-		FileWrite($g_LogFile, '>ImnesvaleEE-master\* .' & @CRLF)
-		_Extract_MoveMod('ImnesvaleEE-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ImnesvaleEE-301') Then
+		FileWrite($g_LogFile, '>ImnesvaleEE-301\* .' & @CRLF)
+		_Extract_MoveMod('ImnesvaleEE-301')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-TestYourMettle-master') Then
 		FileWrite($g_LogFile, '>A7-TestYourMettle-master\* .' & @CRLF)
@@ -703,9 +703,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Gibberlings3-NPCTweak-5a84301\* .' & @CRLF)
 		_Extract_MoveMod('Gibberlings3-NPCTweak-5a84301')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\IylosEET-master') Then
-		FileWrite($g_LogFile, '>IylosEET-master\* .' & @CRLF)
-		_Extract_MoveMod('IylosEET-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\IylosEET-3.0ee') Then
+		FileWrite($g_LogFile, '>IylosEET-3.0ee\* .' & @CRLF)
+		_Extract_MoveMod('IylosEET-3.0ee')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\KidoEE-master') Then
 		FileWrite($g_LogFile, '>KidoEE-master\* .' & @CRLF)
