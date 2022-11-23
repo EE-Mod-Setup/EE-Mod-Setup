@@ -491,9 +491,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>A7-HiddenGameplayOptions-master\* .' & @CRLF)
 		_Extract_MoveMod('A7-HiddenGameplayOptions-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Balduran-s-Sea-Tower-master') Then
-		FileWrite($g_LogFile, '>Balduran-s-Sea-Tower-master\* .' & @CRLF)
-		_Extract_MoveMod('Balduran-s-Sea-Tower-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Balduran-s-Sea-Tower-1.2bt') Then
+		FileWrite($g_LogFile, '>Balduran-s-Sea-Tower-1.2bt\* .' & @CRLF)
+		_Extract_MoveMod('Balduran-s-Sea-Tower-1.2bt')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Gorion-s-Dream-0.9a') Then
 		FileWrite($g_LogFile, '>Gorion-s-Dream-0.9a\* .' & @CRLF)
@@ -567,9 +567,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Crossmod_Banter_Pack_for_Baldurs_Gate_II-master\* .' & @CRLF)
 		_Extract_MoveMod('Crossmod_Banter_Pack_for_Baldurs_Gate_II-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SandrahEET-master') Then
-		FileWrite($g_LogFile, '>SandrahEET-master\* .' & @CRLF)
-		_Extract_MoveMod('SandrahEET-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SandrahEET-2.07') Then
+		FileWrite($g_LogFile, '>SandrahEET-2.07\* .' & @CRLF)
+		_Extract_MoveMod('SandrahEET-2.07')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SandrahRtF-master') Then
 		FileWrite($g_LogFile, '>SandrahRtF-master\* .' & @CRLF)
