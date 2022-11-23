@@ -323,9 +323,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Sirene-NPC-master\* .' & @CRLF)
 		_Extract_MoveMod('Sirene-NPC-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Kim_Pirate-master') Then
-		FileWrite($g_LogFile, '>Kim_Pirate-master\* .' & @CRLF)
-		_Extract_MoveMod('Kim_Pirate-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Kim_Pirate-2ee') Then
+		FileWrite($g_LogFile, '>Kim_Pirate-2ee\* .' & @CRLF)
+		_Extract_MoveMod('Kim_Pirate-2ee')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HaveIce-03f') Then
 		FileWrite($g_LogFile, '>HaveIce-03f\* .' & @CRLF)
@@ -707,9 +707,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>IylosEET-3.0ee\* .' & @CRLF)
 		_Extract_MoveMod('IylosEET-3.0ee')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\KidoEE-master') Then
-		FileWrite($g_LogFile, '>KidoEE-master\* .' & @CRLF)
-		_Extract_MoveMod('KidoEE-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\KidoEE-8.0') Then
+		FileWrite($g_LogFile, '>KidoEE-8.0\* .' & @CRLF)
+		_Extract_MoveMod('KidoEE-8.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Lore_From_Learning-3') Then
 		FileWrite($g_LogFile, '>Lore_From_Learning-3\* .' & @CRLF)
@@ -763,9 +763,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Item_Upgrade-master\* .' & @CRLF)
 		_Extract_MoveMod('Item_Upgrade-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\LensHunt-master') Then
-		FileWrite($g_LogFile, '>LensHunt-master\* .' & @CRLF)
-		_Extract_MoveMod('LensHunt-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\LensHunt-0.4b') Then
+		FileWrite($g_LogFile, '>LensHunt-0.4b\* .' & @CRLF)
+		_Extract_MoveMod('LensHunt-0.4b')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\WTPFamiliars-master') Then
 		FileWrite($g_LogFile, '>WTPFamiliars-master\* .' & @CRLF)
