@@ -287,17 +287,17 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>SpeakDead-master\* .' & @CRLF)
 		_Extract_MoveMod('SpeakDead-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MalteseArtefact-master') Then
-		FileWrite($g_LogFile, '>MalteseArtefact-master\* .' & @CRLF)
-		_Extract_MoveMod('MalteseArtefact-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MalteseArtefact-0.4l') Then
+		FileWrite($g_LogFile, '>MalteseArtefact-0.4l\* .' & @CRLF)
+		_Extract_MoveMod('MalteseArtefact-0.4l')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\CivilDisobedience-0.3b') Then
 		FileWrite($g_LogFile, '>CivilDisobedience-0.3b\* .' & @CRLF)
 		_Extract_MoveMod('CivilDisobedience-0.3b')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MelyndaMute-master') Then
-		FileWrite($g_LogFile, '>MelyndaMute-master\* .' & @CRLF)
-		_Extract_MoveMod('MelyndaMute-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MelyndaMute-03mu') Then
+		FileWrite($g_LogFile, '>MelyndaMute-03mu\* .' & @CRLF)
+		_Extract_MoveMod('MelyndaMute-03mu')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BearWalkerKit-master') Then
 		FileWrite($g_LogFile, '>BearWalkerKit-master\* .' & @CRLF)
@@ -331,9 +331,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>HaveIce-03f\* .' & @CRLF)
 		_Extract_MoveMod('HaveIce-03f')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MasterVampire-master') Then
-		FileWrite($g_LogFile, '>MasterVampire-master\* .' & @CRLF)
-		_Extract_MoveMod('MasterVampire-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MasterVampire-03mv') Then
+		FileWrite($g_LogFile, '>MasterVampire-03mv\* .' & @CRLF)
+		_Extract_MoveMod('MasterVampire-03mv')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG1NPC-30') Then
 		FileWrite($g_LogFile, '>BG1NPC-30\* .' & @CRLF)
@@ -735,9 +735,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>LongerRoadEE-1.9\* .' & @CRLF)
 		_Extract_MoveMod('LongerRoadEE-1.9')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NindeEET-master') Then
-		FileWrite($g_LogFile, '>NindeEET-master\* .' & @CRLF)
-		_Extract_MoveMod('NindeEET-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NindeEET-302ee') Then
+		FileWrite($g_LogFile, '>NindeEET-302ee\* .' & @CRLF)
+		_Extract_MoveMod('NindeEET-302ee')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Tsujatha-master') Then
 		FileWrite($g_LogFile, '>Tsujatha-master\* .' & @CRLF)
@@ -791,9 +791,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Recorder-BG1-master\* .' & @CRLF)
 		_Extract_MoveMod('Recorder-BG1-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\RoseRE-master') Then
-		FileWrite($g_LogFile, '>RoseRE-master\* .' & @CRLF)
-		_Extract_MoveMod('RoseRE-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\RoseRE-08re') Then
+		FileWrite($g_LogFile, '>RoseRE-08re\* .' & @CRLF)
+		_Extract_MoveMod('RoseRE-08re')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\RoT-5.06') Then
 		FileWrite($g_LogFile, '>RoT-5.06\* .' & @CRLF)
@@ -843,9 +843,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>thalan-4.2.4\* .' & @CRLF)
 		_Extract_MoveMod('thalan-4.2.4')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\RuadEE-master') Then
-		FileWrite($g_LogFile, '>RuadEE-master\* .' & @CRLF)
-		_Extract_MoveMod('RuadEE-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\RuadEE-30ee') Then
+		FileWrite($g_LogFile, '>RuadEE-30ee\* .' & @CRLF)
+		_Extract_MoveMod('RuadEE-30ee')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NPC_EE-5.7.1') Then
 		FileWrite($g_LogFile, '>NPC_EE-5.7.1\* .' & @CRLF)
@@ -1239,9 +1239,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>ValygarFriendship-1.4\* .' & @CRLF)
 		_Extract_MoveMod('ValygarFriendship-1.4')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Miriam-master') Then
-		FileWrite($g_LogFile, '>Miriam-master\* .' & @CRLF)
-		_Extract_MoveMod('Miriam-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Miriam-2.1ee') Then
+		FileWrite($g_LogFile, '>Miriam-2.1ee\* .' & @CRLF)
+		_Extract_MoveMod('Miriam-2.1ee')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Asylum-201') Then
 		FileWrite($g_LogFile, '>Asylum-201\* .' & @CRLF)
