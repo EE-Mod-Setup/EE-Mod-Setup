@@ -839,9 +839,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>TGC1e-master\* .' & @CRLF)
 		_Extract_MoveMod('TGC1e-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\thalan-4.2.4') Then
-		FileWrite($g_LogFile, '>thalan-4.2.4\* .' & @CRLF)
-		_Extract_MoveMod('thalan-4.2.4')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\thalan-4.2.5') Then
+		FileWrite($g_LogFile, '>thalan-4.2.5\* .' & @CRLF)
+		_Extract_MoveMod('thalan-4.2.5')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\RuadEE-30ee') Then
 		FileWrite($g_LogFile, '>RuadEE-30ee\* .' & @CRLF)
