@@ -463,9 +463,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>ImnesvaleEE-301\* .' & @CRLF)
 		_Extract_MoveMod('ImnesvaleEE-301')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-TestYourMettle-master') Then
-		FileWrite($g_LogFile, '>A7-TestYourMettle-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-TestYourMettle-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-TestYourMettle-1.4') Then
+		FileWrite($g_LogFile, '>A7-TestYourMettle-1.4\* .' & @CRLF)
+		_Extract_MoveMod('A7-TestYourMettle-1.4')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ResizeableCombatLog-master') Then
 		FileWrite($g_LogFile, '>A7-ResizeableCombatLog-master\* .' & @CRLF)
@@ -1155,9 +1155,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>MinervaNPC-master\* .' & @CRLF)
 		_Extract_MoveMod('MinervaNPC-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-TotLM-BG2EE-master') Then
-		FileWrite($g_LogFile, '>A7-TotLM-BG2EE-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-TotLM-BG2EE-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-TotLM-BG2EE-3.0') Then
+		FileWrite($g_LogFile, '>A7-TotLM-BG2EE-3.0\* .' & @CRLF)
+		_Extract_MoveMod('A7-TotLM-BG2EE-3.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ViconiaFriendship-4.4') Then
 		FileWrite($g_LogFile, '>ViconiaFriendship-4.4\* .' & @CRLF)
