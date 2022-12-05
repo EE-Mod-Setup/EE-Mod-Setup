@@ -667,13 +667,13 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Hubelpot_the_Vegetable_Merchant_NPC-2.1.0\* .' & @CRLF)
 		_Extract_MoveMod('Hubelpot_the_Vegetable_Merchant_NPC-2.1.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HQ-SoundClips-BG2EE-master') Then
-		FileWrite($g_LogFile, '>HQ-SoundClips-BG2EE-master\* .' & @CRLF)
-		_Extract_MoveMod('HQ-SoundClips-BG2EE-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HQ-SoundClips-BG2EE-1.2') Then
+		FileWrite($g_LogFile, '>HQ-SoundClips-BG2EE-1.2\* .' & @CRLF)
+		_Extract_MoveMod('HQ-SoundClips-BG2EE-1.2')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Gavin_BG2-master') Then
-		FileWrite($g_LogFile, '>Gavin_BG2-master\* .' & @CRLF)
-		_Extract_MoveMod('Gavin_BG2-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Gavin_BG2-23') Then
+		FileWrite($g_LogFile, '>Gavin_BG2-23\* .' & @CRLF)
+		_Extract_MoveMod('Gavin_BG2-23')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Hlondeth-03g') Then
 		FileWrite($g_LogFile, '>Hlondeth-03g\* .' & @CRLF)
@@ -691,9 +691,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Imoen4Ever-3\* .' & @CRLF)
 		_Extract_MoveMod('Imoen4Ever-3')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\iwdification-master') Then
-		FileWrite($g_LogFile, '>iwdification-master\* .' & @CRLF)
-		_Extract_MoveMod('iwdification-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\iwdification-5') Then
+		FileWrite($g_LogFile, '>iwdification-5\* .' & @CRLF)
+		_Extract_MoveMod('iwdification-5')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Gibberlings3-NPCTweak-5a84301') Then
 		FileWrite($g_LogFile, '>Gibberlings3-NPCTweak-5a84301\* .' & @CRLF)
