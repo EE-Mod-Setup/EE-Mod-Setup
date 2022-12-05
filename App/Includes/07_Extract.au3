@@ -483,13 +483,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>A7-LightingPackEE-master\* .' & @CRLF)
 		_Extract_MoveMod('A7-LightingPackEE-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AloraEE-master') Then
-		FileWrite($g_LogFile, '>AloraEE-master\* .' & @CRLF)
-		_Extract_MoveMod('AloraEE-master')
-	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-HiddenGameplayOptions-master') Then
-		FileWrite($g_LogFile, '>A7-HiddenGameplayOptions-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-HiddenGameplayOptions-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-HiddenGameplayOptions-3.0') Then
+		FileWrite($g_LogFile, '>A7-HiddenGameplayOptions-3.0\* .' & @CRLF)
+		_Extract_MoveMod('A7-HiddenGameplayOptions-3.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Balduran-s-Sea-Tower-1.2bt') Then
 		FileWrite($g_LogFile, '>Balduran-s-Sea-Tower-1.2bt\* .' & @CRLF)
