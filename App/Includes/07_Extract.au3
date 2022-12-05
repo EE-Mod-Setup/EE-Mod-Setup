@@ -807,9 +807,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>SafanaBG2-04\* .' & @CRLF)
 		_Extract_MoveMod('SafanaBG2-04')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sirene-NPC-for-BG2-EE-master') Then
-		FileWrite($g_LogFile, '>Sirene-NPC-for-BG2-EE-master\* .' & @CRLF)
-		_Extract_MoveMod('Sirene-NPC-for-BG2-EE-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sirene-NPC-for-BG2-EE-2.02') Then
+		FileWrite($g_LogFile, '>Sirene-NPC-for-BG2-EE-2.02\* .' & @CRLF)
+		_Extract_MoveMod('Sirene-NPC-for-BG2-EE-2.02')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Enhanced-Powergaming-Scripts-7.2') Then
 		FileWrite($g_LogFile, '>Enhanced-Powergaming-Scripts-7.2\* .' & @CRLF)
