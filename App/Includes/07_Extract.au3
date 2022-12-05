@@ -915,9 +915,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>XulayeEet-2.5\* .' & @CRLF)
 		_Extract_MoveMod('XulayeEet-2.5')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\jimfix-master') Then
-		FileWrite($g_LogFile, '>jimfix-master\* .' & @CRLF)
-		_Extract_MoveMod('jimfix-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\jimfix-3.1') Then
+		FileWrite($g_LogFile, '>jimfix-3.1\* .' & @CRLF)
+		_Extract_MoveMod('jimfix-3.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SandrahToT-master') Then
 		FileWrite($g_LogFile, '>SandrahToT-master\* .' & @CRLF)
@@ -939,13 +939,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>butchery-5.0.0\* .' & @CRLF)
 		_Extract_MoveMod('butchery-5.0.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Solaufeins_Rescue_NPC-2Beta') Then
-		FileWrite($g_LogFile, '>Solaufeins_Rescue_NPC-2Beta\* .' & @CRLF)
-		_Extract_MoveMod('Solaufeins_Rescue_NPC-2Beta')
-	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\PnP_Celestials-master') Then
-		FileWrite($g_LogFile, '>PnP_Celestials-master\* .' & @CRLF)
-		_Extract_MoveMod('PnP_Celestials-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\PnP_Celestials-9') Then
+		FileWrite($g_LogFile, '>PnP_Celestials-9\* .' & @CRLF)
+		_Extract_MoveMod('PnP_Celestials-9')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AnimalCompanions-master') Then
 		FileWrite($g_LogFile, '>AnimalCompanions-master\* .' & @CRLF)
