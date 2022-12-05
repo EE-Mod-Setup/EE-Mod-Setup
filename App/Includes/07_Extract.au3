@@ -499,9 +499,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Alternatives-master\* .' & @CRLF)
 		_Extract_MoveMod('Alternatives-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Haldamir-master') Then
-		FileWrite($g_LogFile, '>Haldamir-master\* .' & @CRLF)
-		_Extract_MoveMod('Haldamir-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Haldamir-4') Then
+		FileWrite($g_LogFile, '>Haldamir-4\* .' & @CRLF)
+		_Extract_MoveMod('Haldamir-4')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\haerdalisromance-2.2') Then
 		FileWrite($g_LogFile, '>haerdalisromance-2.2\* .' & @CRLF)
