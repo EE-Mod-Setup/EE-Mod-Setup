@@ -519,9 +519,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>ThePictureStandard-071\* .' & @CRLF)
 		_Extract_MoveMod('ThePictureStandard-071')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascension-master') Then
-		FileWrite($g_LogFile, '>Ascension-master\* .' & @CRLF)
-		_Extract_MoveMod('Ascension-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascension-2.0.23') Then
+		FileWrite($g_LogFile, '>Ascension-2.0.23\* .' & @CRLF)
+		_Extract_MoveMod('Ascension-2.0.23')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MadeInHeaven_ItemPack-6') Then
 		FileWrite($g_LogFile, '>MadeInHeaven_ItemPack-6\* .' & @CRLF)
@@ -559,9 +559,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Subrace-mod-0.3.0\* .' & @CRLF)
 		_Extract_MoveMod('Subrace-mod-0.3.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Crossmod_Banter_Pack_for_Baldurs_Gate_II-master') Then
-		FileWrite($g_LogFile, '>Crossmod_Banter_Pack_for_Baldurs_Gate_II-master\* .' & @CRLF)
-		_Extract_MoveMod('Crossmod_Banter_Pack_for_Baldurs_Gate_II-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Crossmod_Banter_Pack_for_Baldurs_Gate_II-21') Then
+		FileWrite($g_LogFile, '>Crossmod_Banter_Pack_for_Baldurs_Gate_II-21\* .' & @CRLF)
+		_Extract_MoveMod('Crossmod_Banter_Pack_for_Baldurs_Gate_II-21')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SandrahEET-2.07') Then
 		FileWrite($g_LogFile, '>SandrahEET-2.07\* .' & @CRLF)
