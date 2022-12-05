@@ -711,9 +711,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Lore_From_Learning-3\* .' & @CRLF)
 		_Extract_MoveMod('Lore_From_Learning-3')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Keldorn_Romance-master') Then
-		FileWrite($g_LogFile, '>Keldorn_Romance-master\* .' & @CRLF)
-		_Extract_MoveMod('Keldorn_Romance-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Keldorn_Romance-8') Then
+		FileWrite($g_LogFile, '>Keldorn_Romance-8\* .' & @CRLF)
+		_Extract_MoveMod('Keldorn_Romance-8')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Lure_Of_Sirines_Call-16.3') Then
 		FileWrite($g_LogFile, '>Lure_Of_Sirines_Call-16.3\* .' & @CRLF)
@@ -763,21 +763,21 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>LensHunt-0.4b\* .' & @CRLF)
 		_Extract_MoveMod('LensHunt-0.4b')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\WTPFamiliars-master') Then
-		FileWrite($g_LogFile, '>WTPFamiliars-master\* .' & @CRLF)
-		_Extract_MoveMod('WTPFamiliars-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\WTPFamiliars-2.6') Then
+		FileWrite($g_LogFile, '>WTPFamiliars-2.6\* .' & @CRLF)
+		_Extract_MoveMod('WTPFamiliars-2.6')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NTotSC-master') Then
-		FileWrite($g_LogFile, '>NTotSC-master\* .' & @CRLF)
-		_Extract_MoveMod('NTotSC-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NTotSC-5.0.0') Then
+		FileWrite($g_LogFile, '>NTotSC-5.0.0\* .' & @CRLF)
+		_Extract_MoveMod('NTotSC-5.0.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\msfm-1.57') Then
 		FileWrite($g_LogFile, '>msfm-1.57\* .' & @CRLF)
 		_Extract_MoveMod('msfm-1.57')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Romantic_Encounters_BG2-master') Then
-		FileWrite($g_LogFile, '>Romantic_Encounters_BG2-master\* .' & @CRLF)
-		_Extract_MoveMod('Romantic_Encounters_BG2-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Romantic_Encounters_BG2-15') Then
+		FileWrite($g_LogFile, '>Romantic_Encounters_BG2-15\* .' & @CRLF)
+		_Extract_MoveMod('Romantic_Encounters_BG2-15')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DragonspearUI-22.01.3') Then
 		FileWrite($g_LogFile, '>DragonspearUI-22.01.3\* .' & @CRLF)
