@@ -467,9 +467,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>A7-TestYourMettle-1.4\* .' & @CRLF)
 		_Extract_MoveMod('A7-TestYourMettle-1.4')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ResizeableCombatLog-master') Then
-		FileWrite($g_LogFile, '>A7-ResizeableCombatLog-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-ResizeableCombatLog-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ResizeableCombatLog-1.3') Then
+		FileWrite($g_LogFile, '>A7-ResizeableCombatLog-1.3\* .' & @CRLF)
+		_Extract_MoveMod('A7-ResizeableCombatLog-1.3')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\hiddenadventure-master') Then
 		FileWrite($g_LogFile, '>hiddenadventure-master\* .' & @CRLF)
@@ -723,9 +723,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Lure_Of_Sirines_Call-16.3\* .' & @CRLF)
 		_Extract_MoveMod('Lure_Of_Sirines_Call-16.3')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ImprovedArcher-master') Then
-		FileWrite($g_LogFile, '>A7-ImprovedArcher-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-ImprovedArcher-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ImprovedArcher-4.0') Then
+		FileWrite($g_LogFile, '>A7-ImprovedArcher-4.0\* .' & @CRLF)
+		_Extract_MoveMod('A7-ImprovedArcher-4.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Kitanya-Resurrected-7.2') Then
 		FileWrite($g_LogFile, '>Kitanya-Resurrected-7.2\* .' & @CRLF)
