@@ -507,13 +507,13 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>haerdalisromance-2.2\* .' & @CRLF)
 		_Extract_MoveMod('haerdalisromance-2.2')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Angelo-master') Then
-		FileWrite($g_LogFile, '>Angelo-master\* .' & @CRLF)
-		_Extract_MoveMod('Angelo-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Angelo-9') Then
+		FileWrite($g_LogFile, '>Angelo-9\* .' & @CRLF)
+		_Extract_MoveMod('Angelo-9')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Corthala_Romantique-master') Then
-		FileWrite($g_LogFile, '>Corthala_Romantique-master\* .' & @CRLF)
-		_Extract_MoveMod('Corthala_Romantique-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Corthala_Romantique-5') Then
+		FileWrite($g_LogFile, '>Corthala_Romantique-5\* .' & @CRLF)
+		_Extract_MoveMod('Corthala_Romantique-5')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ThePictureStandard-071') Then
 		FileWrite($g_LogFile, '>ThePictureStandard-071\* .' & @CRLF)
