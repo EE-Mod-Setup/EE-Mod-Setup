@@ -299,10 +299,6 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>MelyndaMute-03mu\* .' & @CRLF)
 		_Extract_MoveMod('MelyndaMute-03mu')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Drake-master') Then
-		FileWrite($g_LogFile, '>Drake-master\* .' & @CRLF)
-		_Extract_MoveMod('Drake-master')
-	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Gavin_BG-master') Then
 		FileWrite($g_LogFile, '>Gavin_BG-master\* .' & @CRLF)
 		_Extract_MoveMod('Gavin_BG-master')
@@ -315,9 +311,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Isra_NPC-3.5\* .' & @CRLF)
 		_Extract_MoveMod('Isra_NPC-3.5')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sirene-NPC-master') Then
-		FileWrite($g_LogFile, '>Sirene-NPC-master\* .' & @CRLF)
-		_Extract_MoveMod('Sirene-NPC-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sirene-NPC-3.0') Then
+		FileWrite($g_LogFile, '>Sirene-NPC-3.0\* .' & @CRLF)
+		_Extract_MoveMod('Sirene-NPC-3.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Kim_Pirate-2ee') Then
 		FileWrite($g_LogFile, '>Kim_Pirate-2ee\* .' & @CRLF)
