@@ -299,10 +299,6 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>MelyndaMute-03mu\* .' & @CRLF)
 		_Extract_MoveMod('MelyndaMute-03mu')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BearWalkerKit-master') Then
-		FileWrite($g_LogFile, '>BearWalkerKit-master\* .' & @CRLF)
-		_Extract_MoveMod('BearWalkerKit-master')
-	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Drake-master') Then
 		FileWrite($g_LogFile, '>Drake-master\* .' & @CRLF)
 		_Extract_MoveMod('Drake-master')
@@ -942,10 +938,6 @@ Func Au3ExFix($p_Num)
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\PnP_Celestials-9') Then
 		FileWrite($g_LogFile, '>PnP_Celestials-9\* .' & @CRLF)
 		_Extract_MoveMod('PnP_Celestials-9')
-	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AnimalCompanions-master') Then
-		FileWrite($g_LogFile, '>AnimalCompanions-master\* .' & @CRLF)
-		_Extract_MoveMod('AnimalCompanions-master')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-BanterAccelerator-master') Then
 		FileWrite($g_LogFile, '>A7-BanterAccelerator-master\* .' & @CRLF)
