@@ -875,13 +875,13 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>The_Luxley_Family-2.0.0\* .' & @CRLF)
 		_Extract_MoveMod('The_Luxley_Family-2.0.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\randomiser-master') Then
-		FileWrite($g_LogFile, '>randomiser-master\* .' & @CRLF)
-		_Extract_MoveMod('randomiser-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\randomiser-7') Then
+		FileWrite($g_LogFile, '>randomiser-7\* .' & @CRLF)
+		_Extract_MoveMod('randomiser-7')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\UnfinishedBusiness-master') Then
-		FileWrite($g_LogFile, '>UnfinishedBusiness-master\* .' & @CRLF)
-		_Extract_MoveMod('UnfinishedBusiness-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\UnfinishedBusiness-28') Then
+		FileWrite($g_LogFile, '>UnfinishedBusiness-28\* .' & @CRLF)
+		_Extract_MoveMod('UnfinishedBusiness-28')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\iwd_unfinished_business-master') Then
 		FileWrite($g_LogFile, '>iwd_unfinished_business-master\* .' & @CRLF)
