@@ -975,9 +975,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>BP-BGT-Worldmap-10.2.5\* .' & @CRLF)
 		_Extract_MoveMod('BP-BGT-Worldmap-10.2.5')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Relieve-Wizard-Slayer-master') Then
-		FileWrite($g_LogFile, '>Relieve-Wizard-Slayer-master\* .' & @CRLF)
-		_Extract_MoveMod('Relieve-Wizard-Slayer-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Relieve-Wizard-Slayer-1.7') Then
+		FileWrite($g_LogFile, '>Relieve-Wizard-Slayer-1.7\* .' & @CRLF)
+		_Extract_MoveMod('Relieve-Wizard-Slayer-1.7')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-GolemConstruction-master') Then
 		FileWrite($g_LogFile, '>A7-GolemConstruction-master\* .' & @CRLF)
@@ -1103,9 +1103,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>etamin-soundsets-master\* .' & @CRLF)
 		_Extract_MoveMod('etamin-soundsets-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-recoloredbuttons-master') Then
-		FileWrite($g_LogFile, '>A7-recoloredbuttons-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-recoloredbuttons-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-recoloredbuttons-4.2') Then
+		FileWrite($g_LogFile, '>A7-recoloredbuttons-4.2\* .' & @CRLF)
+		_Extract_MoveMod('A7-recoloredbuttons-4.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\subtledoctor-EE_APR_Fix-1c6057b') Then
 		FileWrite($g_LogFile, '>subtledoctor-EE_APR_Fix-1c6057b\* .' & @CRLF)
