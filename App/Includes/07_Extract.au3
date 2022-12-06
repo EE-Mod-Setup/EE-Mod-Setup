@@ -407,9 +407,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Xan_for_BGII-19\* .' & @CRLF)
 		_Extract_MoveMod('Xan_for_BGII-19')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Aura_BG1-master') Then
-		FileWrite($g_LogFile, '>Aura_BG1-master\* .' & @CRLF)
-		_Extract_MoveMod('Aura_BG1-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Aura_BG1-3.6') Then
+		FileWrite($g_LogFile, '>Aura_BG1-3.6\* .' & @CRLF)
+		_Extract_MoveMod('Aura_BG1-3.6')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DarkHorizonsTweaks-master') Then
 		FileWrite($g_LogFile, '>DarkHorizonsTweaks-master\* .' & @CRLF)
@@ -487,9 +487,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Gorion-s-Dream-0.9a\* .' & @CRLF)
 		_Extract_MoveMod('Gorion-s-Dream-0.9a')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Alternatives-master') Then
-		FileWrite($g_LogFile, '>Alternatives-master\* .' & @CRLF)
-		_Extract_MoveMod('Alternatives-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Alternatives-15') Then
+		FileWrite($g_LogFile, '>Alternatives-15\* .' & @CRLF)
+		_Extract_MoveMod('Alternatives-15')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Haldamir-4') Then
 		FileWrite($g_LogFile, '>Haldamir-4\* .' & @CRLF)
@@ -979,9 +979,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Relieve-Wizard-Slayer-1.7\* .' & @CRLF)
 		_Extract_MoveMod('Relieve-Wizard-Slayer-1.7')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-GolemConstruction-master') Then
-		FileWrite($g_LogFile, '>A7-GolemConstruction-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-GolemConstruction-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-GolemConstruction-6.2') Then
+		FileWrite($g_LogFile, '>A7-GolemConstruction-6.2\* .' & @CRLF)
+		_Extract_MoveMod('A7-GolemConstruction-6.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SpiritHunterShamantKit-master') Then
 		FileWrite($g_LogFile, '>SpiritHunterShamantKit-master\* .' & @CRLF)
