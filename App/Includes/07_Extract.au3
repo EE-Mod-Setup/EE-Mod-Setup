@@ -751,9 +751,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>SongAndSilence-master\* .' & @CRLF)
 		_Extract_MoveMod('SongAndSilence-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Item_Upgrade-master') Then
-		FileWrite($g_LogFile, '>Item_Upgrade-master\* .' & @CRLF)
-		_Extract_MoveMod('Item_Upgrade-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Item_Upgrade-51') Then
+		FileWrite($g_LogFile, '>Item_Upgrade-51\* .' & @CRLF)
+		_Extract_MoveMod('Item_Upgrade-51')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\LensHunt-0.4b') Then
 		FileWrite($g_LogFile, '>LensHunt-0.4b\* .' & @CRLF)
@@ -1027,9 +1027,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>ConvinientAmmunition-1.0\* .' & @CRLF)
 		_Extract_MoveMod('ConvinientAmmunition-1.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ItemRevisions-master') Then
-		FileWrite($g_LogFile, '>ItemRevisions-master\* .' & @CRLF)
-		_Extract_MoveMod('ItemRevisions-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ItemRevisions-4b10') Then
+		FileWrite($g_LogFile, '>ItemRevisions-4b10\* .' & @CRLF)
+		_Extract_MoveMod('ItemRevisions-4b10')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Jini Romance - v2.3') Then
 		FileWrite($g_LogFile, '>Jini Romance - v2.3\* .' & @CRLF)
