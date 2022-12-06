@@ -439,9 +439,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Magestronghold-0.5\* .' & @CRLF)
 		_Extract_MoveMod('Magestronghold-0.5')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MilitiaOfficer-Kit-master') Then
-		FileWrite($g_LogFile, '>MilitiaOfficer-Kit-master\* .' & @CRLF)
-		_Extract_MoveMod('MilitiaOfficer-Kit-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MilitiaOfficer-Kit-1.8') Then
+		FileWrite($g_LogFile, '>MilitiaOfficer-Kit-1.8\* .' & @CRLF)
+		_Extract_MoveMod('MilitiaOfficer-Kit-1.8')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SoD-to-BG2EE-Item-Upgrade-master') Then
 		FileWrite($g_LogFile, '>SoD-to-BG2EE-Item-Upgrade-master\* .' & @CRLF)
@@ -1135,9 +1135,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Solaufein-master\* .' & @CRLF)
 		_Extract_MoveMod('Solaufein-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MinervaNPC-master') Then
-		FileWrite($g_LogFile, '>MinervaNPC-master\* .' & @CRLF)
-		_Extract_MoveMod('MinervaNPC-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MinervaNPC-1.1') Then
+		FileWrite($g_LogFile, '>MinervaNPC-1.1\* .' & @CRLF)
+		_Extract_MoveMod('MinervaNPC-1.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-TotLM-BG2EE-3.0') Then
 		FileWrite($g_LogFile, '>A7-TotLM-BG2EE-3.0\* .' & @CRLF)
