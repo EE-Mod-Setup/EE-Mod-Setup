@@ -635,9 +635,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>generalized_biffing-master\* .' & @CRLF)
 		_Extract_MoveMod('generalized_biffing-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-BagsOfTorment-master') Then
-		FileWrite($g_LogFile, '>A7-BagsOfTorment-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-BagsOfTorment-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-BagsOfTorment-1.2') Then
+		FileWrite($g_LogFile, '>A7-BagsOfTorment-1.2\* .' & @CRLF)
+		_Extract_MoveMod('A7-BagsOfTorment-1.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ajantis_BG1_Expansion-18.3') Then
 		FileWrite($g_LogFile, '>Ajantis_BG1_Expansion-18.3\* .' & @CRLF)
@@ -939,9 +939,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>PnP_Celestials-9\* .' & @CRLF)
 		_Extract_MoveMod('PnP_Celestials-9')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-BanterAccelerator-master') Then
-		FileWrite($g_LogFile, '>A7-BanterAccelerator-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-BanterAccelerator-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-BanterAccelerator-1.4') Then
+		FileWrite($g_LogFile, '>A7-BanterAccelerator-1.4\* .' & @CRLF)
+		_Extract_MoveMod('A7-BanterAccelerator-1.4')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-NPCGenerator-1.2') Then
 		FileWrite($g_LogFile, '>A7-NPCGenerator-1.2\* .' & @CRLF)
@@ -1039,9 +1039,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>SpellRevisions-4b18\* .' & @CRLF)
 		_Extract_MoveMod('SpellRevisions-4b18')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ImprovedShamanicDance-master') Then
-		FileWrite($g_LogFile, '>A7-ImprovedShamanicDance-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-ImprovedShamanicDance-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ImprovedShamanicDance-4.4') Then
+		FileWrite($g_LogFile, '>A7-ImprovedShamanicDance-4.4\* .' & @CRLF)
+		_Extract_MoveMod('A7-ImprovedShamanicDance-4.4')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\garricks_infatuation-master') Then
 		FileWrite($g_LogFile, '>garricks_infatuation-master\* .' & @CRLF)
@@ -1059,9 +1059,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>thisisulb-SpiritwalkerKit-777613d\* .' & @CRLF)
 		_Extract_MoveMod('thisisulb-SpiritwalkerKit-777613d')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ChaosSorcerer-master') Then
-		FileWrite($g_LogFile, '>A7-ChaosSorcerer-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-ChaosSorcerer-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ChaosSorcerer-2.7') Then
+		FileWrite($g_LogFile, '>A7-ChaosSorcerer-2.7\* .' & @CRLF)
+		_Extract_MoveMod('A7-ChaosSorcerer-2.7')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DreamWalkerShamanKit-master') Then
 		FileWrite($g_LogFile, '>DreamWalkerShamanKit-master\* .' & @CRLF)
