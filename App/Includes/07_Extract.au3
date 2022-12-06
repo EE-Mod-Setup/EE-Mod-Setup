@@ -447,9 +447,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>SoD-to-BG2EE-Item-Upgrade-master\* .' & @CRLF)
 		_Extract_MoveMod('SoD-to-BG2EE-Item-Upgrade-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Mercenary-Kit-master') Then
-		FileWrite($g_LogFile, '>Mercenary-Kit-master\* .' & @CRLF)
-		_Extract_MoveMod('Mercenary-Kit-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Mercenary-Kit-3.1') Then
+		FileWrite($g_LogFile, '>Mercenary-Kit-3.1\* .' & @CRLF)
+		_Extract_MoveMod('Mercenary-Kit-3.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ImnesvaleEE-301') Then
 		FileWrite($g_LogFile, '>ImnesvaleEE-301\* .' & @CRLF)
@@ -471,9 +471,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>d5_Random_Tweaks-1.5.2.1\* .' & @CRLF)
 		_Extract_MoveMod('d5_Random_Tweaks-1.5.2.1')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-LightingPackEE-master') Then
-		FileWrite($g_LogFile, '>A7-LightingPackEE-master\* .' & @CRLF)
-		_Extract_MoveMod('A7-LightingPackEE-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-LightingPackEE-3.1') Then
+		FileWrite($g_LogFile, '>A7-LightingPackEE-3.1\* .' & @CRLF)
+		_Extract_MoveMod('A7-LightingPackEE-3.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-HiddenGameplayOptions-3.0') Then
 		FileWrite($g_LogFile, '>A7-HiddenGameplayOptions-3.0\* .' & @CRLF)
@@ -923,9 +923,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Shards_of_Ice-7\* .' & @CRLF)
 		_Extract_MoveMod('Shards_of_Ice-7')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Kivan_and_Deheriana-master') Then
-		FileWrite($g_LogFile, '>Kivan_and_Deheriana-master\* .' & @CRLF)
-		_Extract_MoveMod('Kivan_and_Deheriana-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Kivan_and_Deheriana-17') Then
+		FileWrite($g_LogFile, '>Kivan_and_Deheriana-17\* .' & @CRLF)
+		_Extract_MoveMod('Kivan_and_Deheriana-17')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Gibberlings3-Anishai-c1368e4') Then
 		FileWrite($g_LogFile, '>Gibberlings3-Anishai-c1368e4\* .' & @CRLF)
