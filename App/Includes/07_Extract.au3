@@ -351,9 +351,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>NoSoDSound-master\* .' & @CRLF)
 		_Extract_MoveMod('NoSoDSound-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\CowledMenace-master') Then
-		FileWrite($g_LogFile, '>CowledMenace-master\* .' & @CRLF)
-		_Extract_MoveMod('CowledMenace-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\CowledMenace-1.0.0') Then
+		FileWrite($g_LogFile, '>CowledMenace-1.0.0\* .' & @CRLF)
+		_Extract_MoveMod('CowledMenace-1.0.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AstroBryGuy-NeeraBanters-7124366') Then
 		FileWrite($g_LogFile, '>AstroBryGuy-NeeraBanters-7124366\* .' & @CRLF)
@@ -1083,13 +1083,13 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Sword-and-Fist-10\* .' & @CRLF)
 		_Extract_MoveMod('Sword-and-Fist-10')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Charlatan-Kit-master') Then
-		FileWrite($g_LogFile, '>Charlatan-Kit-master\* .' & @CRLF)
-		_Extract_MoveMod('Charlatan-Kit-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Charlatan-Kit-2.7') Then
+		FileWrite($g_LogFile, '>Charlatan-Kit-2.7\* .' & @CRLF)
+		_Extract_MoveMod('Charlatan-Kit-2.7')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Warlock-master') Then
-		FileWrite($g_LogFile, '>Warlock-master\* .' & @CRLF)
-		_Extract_MoveMod('Warlock-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Warlock-1.72') Then
+		FileWrite($g_LogFile, '>Warlock-1.72\* .' & @CRLF)
+		_Extract_MoveMod('Warlock-1.72')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Bardic-Wonders-2.3') Then
 		FileWrite($g_LogFile, '>Bardic-Wonders-2.3\* .' & @CRLF)
