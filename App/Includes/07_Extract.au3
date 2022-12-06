@@ -919,9 +919,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>SandrahToT-master\* .' & @CRLF)
 		_Extract_MoveMod('SandrahToT-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Shards_of_Ice-master') Then
-		FileWrite($g_LogFile, '>Shards_of_Ice-master\* .' & @CRLF)
-		_Extract_MoveMod('Shards_of_Ice-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Shards_of_Ice-7') Then
+		FileWrite($g_LogFile, '>Shards_of_Ice-7\* .' & @CRLF)
+		_Extract_MoveMod('Shards_of_Ice-7')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Kivan_and_Deheriana-master') Then
 		FileWrite($g_LogFile, '>Kivan_and_Deheriana-master\* .' & @CRLF)
@@ -1211,9 +1211,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>HTaM-v.4.3\* .' & @CRLF)
 		_Extract_MoveMod('HTaM-v.4.3')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Shadow-Magic-master') Then
-		FileWrite($g_LogFile, '>Shadow-Magic-master\* .' & @CRLF)
-		_Extract_MoveMod('Shadow-Magic-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Shadow-Magic-2.21') Then
+		FileWrite($g_LogFile, '>Shadow-Magic-2.21\* .' & @CRLF)
+		_Extract_MoveMod('Shadow-Magic-2.21')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\tipun_gui_mod-2.1.2') Then
 		FileWrite($g_LogFile, '>tipun_gui_mod-2.1.2\* .' & @CRLF)
