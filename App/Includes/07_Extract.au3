@@ -1007,9 +1007,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>LeUI-SoD-master\* .' & @CRLF)
 		_Extract_MoveMod('LeUI-SoD-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG_Quests_And_Encounters-master') Then
-		FileWrite($g_LogFile, '>BG_Quests_And_Encounters-master\* .' & @CRLF)
-		_Extract_MoveMod('BG_Quests_And_Encounters-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG_Quests_And_Encounters-25.5') Then
+		FileWrite($g_LogFile, '>BG_Quests_And_Encounters-25.5\* .' & @CRLF)
+		_Extract_MoveMod('BG_Quests_And_Encounters-25.5')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG1_Romantic_Encounters-9.0') Then
 		FileWrite($g_LogFile, '>BG1_Romantic_Encounters-9.0\* .' & @CRLF)
@@ -1091,13 +1091,13 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Warlock-master\* .' & @CRLF)
 		_Extract_MoveMod('Warlock-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Bardic-Wonders-master') Then
-		FileWrite($g_LogFile, '>Bardic-Wonders-master\* .' & @CRLF)
-		_Extract_MoveMod('Bardic-Wonders-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Bardic-Wonders-2.3') Then
+		FileWrite($g_LogFile, '>Bardic-Wonders-2.3\* .' & @CRLF)
+		_Extract_MoveMod('Bardic-Wonders-2.3')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BGEE-Classic-Movies-master') Then
-		FileWrite($g_LogFile, '>BGEE-Classic-Movies-master\* .' & @CRLF)
-		_Extract_MoveMod('BGEE-Classic-Movies-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BGEE-Classic-Movies-2.3.1') Then
+		FileWrite($g_LogFile, '>BGEE-Classic-Movies-2.3.1\* .' & @CRLF)
+		_Extract_MoveMod('BGEE-Classic-Movies-2.3.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\etamin-soundsets-master') Then
 		FileWrite($g_LogFile, '>etamin-soundsets-master\* .' & @CRLF)
