@@ -587,6 +587,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>DeepgnomesEET-0.4\* .' & @CRLF)
 		_Extract_MoveMod('DeepgnomesEET-0.4')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\The_Calling-3') Then
+		FileWrite($g_LogFile, '>The_Calling-3\* .' & @CRLF)
+		_Extract_MoveMod('The_Calling-3')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DjinniCompanion-2.9') Then
 		FileWrite($g_LogFile, '>DjinniCompanion-2.9\* .' & @CRLF)
 		_Extract_MoveMod('DjinniCompanion-2.9')
@@ -1263,9 +1267,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>YoshimoFriendship-4.4\* .' & @CRLF)
 		_Extract_MoveMod('YoshimoFriendship-4.4')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\bg2-tweaks-and-tricks-master') Then
-		FileWrite($g_LogFile, '>bg2-tweaks-and-tricks-master\* .' & @CRLF)
-		_Extract_MoveMod('bg2-tweaks-and-tricks-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\bg2-tweaks-and-tricks-8.19') Then
+		FileWrite($g_LogFile, '>bg2-tweaks-and-tricks-8.19\* .' & @CRLF)
+		_Extract_MoveMod('bg2-tweaks-and-tricks-8.19')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Emily-BG1-master') Then
 		FileWrite($g_LogFile, '>Emily-BG1-master\* .' & @CRLF)
@@ -1283,9 +1287,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Helga-BG1-master\* .' & @CRLF)
 		_Extract_MoveMod('Helga-BG1-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SkitiaNPCs-master') Then
-		FileWrite($g_LogFile, '>SkitiaNPCs-master\* .' & @CRLF)
-		_Extract_MoveMod('SkitiaNPCs-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SkitiaNPCs-1.013') Then
+		FileWrite($g_LogFile, '>SkitiaNPCs-1.013\* .' & @CRLF)
+		_Extract_MoveMod('SkitiaNPCs-1.013')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MazzyFriendship-3.5') Then
 		FileWrite($g_LogFile, '>MazzyFriendship-3.5\* .' & @CRLF)
