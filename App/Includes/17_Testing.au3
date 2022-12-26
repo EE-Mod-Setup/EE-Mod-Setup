@@ -648,7 +648,7 @@ Func _Test_CheckRequiredFiles_IWD1EE()
 		_Test_SetButtonColor(2, 1, 1)
 		Return SetError(1, 1, 1)
 	EndIf
-	If FileExists($g_IWD1EEDir&'\lang\en_US') And FileExists($g_IWD1EEDir&'\movies\avalanch.wbm') And FileExists($g_IWD1EEDir&'\icewind.exe') Then; IWD1EE-directory structure
+	If FileExists($g_IWD1EEDir&'\lang\en_US') And ((FileExists($g_IWD1EEDir&'\movies\avalanch.wbm') And FileExists($g_IWD1EEDir&'\icewind.exe')) or FileExists($g_IWD1EEDir&'\icewinddale')) Then; IWD1EE-directory structure
 	Else
 		$Error&=_GetTR($Message, 'L2')&@CRLF; => structure not valid
 	EndIf
@@ -681,7 +681,7 @@ Func _Test_CheckRequiredFiles_PSTEE()
 		_Test_SetButtonColor(2, 1, 1)
 		Return SetError(1, 1, 1)
 	EndIf
-	If FileExists($g_PSTEEDir&'\lang\en_US') And FileExists($g_PSTEEDir&'\data\profiles.bif') And FileExists($g_PSTEEDir&'\Torment.exe') Then; PSTEE-directory structure
+	If FileExists($g_PSTEEDir&'\lang\en_US') And FileExists($g_PSTEEDir&'\data\profiles.bif') And (FileExists($g_PSTEEDir&'\Torment.exe') or FileExists($g_PSTEEDir&'\Torment64')) Then; PSTEE-directory structure
 	Else
 		$Error&=_GetTR($Message, 'L2')&@CRLF; => structure not valid
 	EndIf
