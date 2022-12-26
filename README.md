@@ -37,7 +37,7 @@
 
 Many actively maintained or properly completed ones that fit into large compatible installations. No game conversions or content removal mods are supported to assure compatibility of the installed game.
 
-### Getting started ###
+### Getting started for Windows ###
 A detailed description pdf-file is in the tool download package in the documents folder.
 1. Download application zip archive and extract it anywhere you want (but not in your game folder!)
 2. Close any open games and game editors to avoid interference with the installation process
@@ -51,3 +51,16 @@ Note: If you reuse the tool and you kept the previously downloaded mods stored, 
 9. Use the *Back* button to leave mod selection - at this point you may be shown conflicts or problems you have in your selection and you can resolve those with the help provided in the menus
 10. When you have established a mod selection you are happy with *continue* and follow the instructions.
 
+### Getting started for Linux/Macos ###
+
+#### Prerequisites ####
+* [wine](https://wiki.winehq.org/Download) (wine 7.2 testing worked for me)
+
+#### Steps
+
+1. Follow steps 1 & 2 above.
+2. Skip steps 3->5, instead run the following from the root of the extracted zip archive
+```sh
+wine App/Tools/AutoIt3.exe App/App.au3
+```
+3. Follow steps 6->10 as normal.
