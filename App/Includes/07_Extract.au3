@@ -559,9 +559,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>SandrahEET-2.07\* .' & @CRLF)
 		_Extract_MoveMod('SandrahEET-2.07')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SandrahRtF-master') Then
-		FileWrite($g_LogFile, '>SandrahRtF-master\* .' & @CRLF)
-		_Extract_MoveMod('SandrahRtF-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SandrahRtF-207r') Then
+		FileWrite($g_LogFile, '>SandrahRtF-207r\* .' & @CRLF)
+		_Extract_MoveMod('SandrahRtF-207r')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DaceEET-3.1b') Then
 		FileWrite($g_LogFile, '>DaceEET-3.1b\* .' & @CRLF)
