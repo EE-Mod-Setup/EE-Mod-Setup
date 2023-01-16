@@ -1091,9 +1091,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Warlock-1.72\* .' & @CRLF)
 		_Extract_MoveMod('Warlock-1.72')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Bardic-Wonders-2.3') Then
-		FileWrite($g_LogFile, '>Bardic-Wonders-2.3\* .' & @CRLF)
-		_Extract_MoveMod('Bardic-Wonders-2.3')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Bardic-Wonders-2.5') Then
+		FileWrite($g_LogFile, '>Bardic-Wonders-2.5\* .' & @CRLF)
+		_Extract_MoveMod('Bardic-Wonders-2.5')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BGEE-Classic-Movies-2.3.1') Then
 		FileWrite($g_LogFile, '>BGEE-Classic-Movies-2.3.1\* .' & @CRLF)
@@ -1163,9 +1163,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>TurnaboutEE-Master\* .' & @CRLF)
 		_Extract_MoveMod('TurnaboutEE-Master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SOS-EE-master') Then
-		FileWrite($g_LogFile, '>SOS-EE-master\* .' & @CRLF)
-		_Extract_MoveMod('SOS-EE-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SOS-EE-3.01') Then
+		FileWrite($g_LogFile, '>SOS-EE-3.01\* .' & @CRLF)
+		_Extract_MoveMod('SOS-EE-3.01')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NaliaEE-6.2') Then
 		FileWrite($g_LogFile, '>NaliaEE-6.2\* .' & @CRLF)
