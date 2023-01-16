@@ -915,9 +915,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>jimfix-3.1\* .' & @CRLF)
 		_Extract_MoveMod('jimfix-3.1')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SandrahToT-master') Then
-		FileWrite($g_LogFile, '>SandrahToT-master\* .' & @CRLF)
-		_Extract_MoveMod('SandrahToT-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SandrahToT-207t') Then
+		FileWrite($g_LogFile, '>SandrahToT-207t\* .' & @CRLF)
+		_Extract_MoveMod('SandrahToT-207t')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Shards_of_Ice-7') Then
 		FileWrite($g_LogFile, '>Shards_of_Ice-7\* .' & @CRLF)
