@@ -863,9 +863,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Tweaks-Anthology-16\* .' & @CRLF)
 		_Extract_MoveMod('Tweaks-Anthology-16')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TyrisEE-10.1') Then
-		FileWrite($g_LogFile, '>TyrisEE-10.1\* .' & @CRLF)
-		_Extract_MoveMod('TyrisEE-10.1')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TyrisEE-10.2') Then
+		FileWrite($g_LogFile, '>TyrisEE-10.2\* .' & @CRLF)
+		_Extract_MoveMod('TyrisEE-10.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\The_Luxley_Family-2.0.0') Then
 		FileWrite($g_LogFile, '>The_Luxley_Family-2.0.0\* .' & @CRLF)
