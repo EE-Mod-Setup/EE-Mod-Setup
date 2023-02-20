@@ -1183,6 +1183,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>ArathEET-4.3\* .' & @CRLF)
 		_Extract_MoveMod('ArathEET-4.3')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Back_to_Brynnlaw-9') Then
+		FileWrite($g_LogFile, '>Back_to_Brynnlaw-9\* .' & @CRLF)
+		_Extract_MoveMod('Back_to_Brynnlaw-9')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Yeslick_NPC-5.0') Then
 		FileWrite($g_LogFile, '>Yeslick_NPC-5.0\* .' & @CRLF)
 		_Extract_MoveMod('Yeslick_NPC-5.0')
