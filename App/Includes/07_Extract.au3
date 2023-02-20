@@ -1019,9 +1019,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Turnabout-1.5\* .' & @CRLF)
 		_Extract_MoveMod('Turnabout-1.5')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Rupert-master') Then
-		FileWrite($g_LogFile, '>Rupert-master\* .' & @CRLF)
-		_Extract_MoveMod('Rupert-master')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Rupert_the_Dye_Merchant-3.0.0') Then
+		FileWrite($g_LogFile, '>Rupert_the_Dye_Merchant-3.0.0\* .' & @CRLF)
+		_Extract_MoveMod('Rupert_the_Dye_Merchant-3.0.0')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ConvinientAmmunition-1.0') Then
 		FileWrite($g_LogFile, '>ConvinientAmmunition-1.0\* .' & @CRLF)
