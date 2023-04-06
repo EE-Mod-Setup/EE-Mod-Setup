@@ -1207,9 +1207,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>MinscFriendship-1.1\* .' & @CRLF)
 		_Extract_MoveMod('MinscFriendship-1.1')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\CerndFriendship-1.2') Then
-		FileWrite($g_LogFile, '>CerndFriendship-1.2\* .' & @CRLF)
-		_Extract_MoveMod('CerndFriendship-1.2')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\CerndFriendship-1.4') Then
+		FileWrite($g_LogFile, '>CerndFriendship-1.4\* .' & @CRLF)
+		_Extract_MoveMod('CerndFriendship-1.4')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\HTaM-v.4.3') Then
 		FileWrite($g_LogFile, '>HTaM-v.4.3\* .' & @CRLF)
