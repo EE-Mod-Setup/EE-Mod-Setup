@@ -1195,9 +1195,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>The-Artisan-s-Kitpack-master\* .' & @CRLF)
 		_Extract_MoveMod('The-Artisan-s-Kitpack-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SarevokFriendship-2.5') Then
-		FileWrite($g_LogFile, '>SarevokFriendship-2.5\* .' & @CRLF)
-		_Extract_MoveMod('SarevokFriendship-2.5')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SarevokFriendship-2.7') Then
+		FileWrite($g_LogFile, '>SarevokFriendship-2.7\* .' & @CRLF)
+		_Extract_MoveMod('SarevokFriendship-2.7')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Aran-Whitehand-master') Then
 		FileWrite($g_LogFile, '>Aran-Whitehand-master\* .' & @CRLF)
