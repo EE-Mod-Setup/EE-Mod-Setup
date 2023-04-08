@@ -1215,6 +1215,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>HTaM-v.4.3\* .' & @CRLF)
 		_Extract_MoveMod('HTaM-v.4.3')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\AllThingsMazzy-3.12') Then
+		FileWrite($g_LogFile, '>AllThingsMazzy-3.12\* .' & @CRLF)
+		_Extract_MoveMod('AllThingsMazzy-3.12')
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Shadow-Magic-2.21') Then
 		FileWrite($g_LogFile, '>Shadow-Magic-2.21\* .' & @CRLF)
 		_Extract_MoveMod('Shadow-Magic-2.21')
