@@ -683,9 +683,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Portraits-Portraits-Everywhere-master\* .' & @CRLF)
 		_Extract_MoveMod('Portraits-Portraits-Everywhere-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Imoen4Ever-3') Then
-		FileWrite($g_LogFile, '>Imoen4Ever-3\* .' & @CRLF)
-		_Extract_MoveMod('Imoen4Ever-3')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ChattyImoen-v1.5') Then
+		FileWrite($g_LogFile, '>ChattyImoen-v1.5\* .' & @CRLF)
+		_Extract_MoveMod('ChattyImoen-v1.5')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\iwdification-5') Then
 		FileWrite($g_LogFile, '>iwdification-5\* .' & @CRLF)
