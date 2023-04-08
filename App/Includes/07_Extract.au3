@@ -1271,9 +1271,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Raduziels-Universal-Wizard-Spells-master\* .' & @CRLF)
 		_Extract_MoveMod('Raduziels-Universal-Wizard-Spells-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\YoshimoFriendship-4.4') Then
-		FileWrite($g_LogFile, '>YoshimoFriendship-4.4\* .' & @CRLF)
-		_Extract_MoveMod('YoshimoFriendship-4.4')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\YoshimoFriendship-4.6') Then
+		FileWrite($g_LogFile, '>YoshimoFriendship-4.6\* .' & @CRLF)
+		_Extract_MoveMod('YoshimoFriendship-4.6')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\bg2-tweaks-and-tricks-8.19') Then
 		FileWrite($g_LogFile, '>bg2-tweaks-and-tricks-8.19\* .' & @CRLF)
