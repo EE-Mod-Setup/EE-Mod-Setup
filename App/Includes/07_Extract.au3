@@ -395,9 +395,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Ascalons_Breagar-12.0.0\* .' & @CRLF)
 		_Extract_MoveMod('Ascalons_Breagar-12.0.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascalons_Questpack-4.3') Then
-		FileWrite($g_LogFile, '>Ascalons_Questpack-4.3\* .' & @CRLF)
-		_Extract_MoveMod('Ascalons_Questpack-4.3')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascalons_Questpack-4.4') Then
+		FileWrite($g_LogFile, '>Ascalons_Questpack-4.4\* .' & @CRLF)
+		_Extract_MoveMod('Ascalons_Questpack-4.4')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Adalons_Blood-15') Then
 		FileWrite($g_LogFile, '>Adalons_Blood-15\* .' & @CRLF)
