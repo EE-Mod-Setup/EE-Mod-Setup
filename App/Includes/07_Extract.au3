@@ -1143,9 +1143,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>MinervaNPC-1.1\* .' & @CRLF)
 		_Extract_MoveMod('MinervaNPC-1.1')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-TotLM-BG2EE-3.0') Then
-		FileWrite($g_LogFile, '>A7-TotLM-BG2EE-3.0\* .' & @CRLF)
-		_Extract_MoveMod('A7-TotLM-BG2EE-3.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-TotLM-BG2EE-3.1') Then
+		FileWrite($g_LogFile, '>A7-TotLM-BG2EE-3.1\* .' & @CRLF)
+		_Extract_MoveMod('A7-TotLM-BG2EE-3.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ViconiaFriendship-4.4') Then
 		FileWrite($g_LogFile, '>ViconiaFriendship-4.4\* .' & @CRLF)
