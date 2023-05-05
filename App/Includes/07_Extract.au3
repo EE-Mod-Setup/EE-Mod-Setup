@@ -1167,9 +1167,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>TurnaboutEE-Master\* .' & @CRLF)
 		_Extract_MoveMod('TurnaboutEE-Master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SOS-EE-3.01') Then
-		FileWrite($g_LogFile, '>SOS-EE-3.01\* .' & @CRLF)
-		_Extract_MoveMod('SOS-EE-3.01')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SOS-EE-3.03') Then
+		FileWrite($g_LogFile, '>SOS-EE-3.03\* .' & @CRLF)
+		_Extract_MoveMod('SOS-EE-3.03')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NaliaEE-6.2') Then
 		FileWrite($g_LogFile, '>NaliaEE-6.2\* .' & @CRLF)
