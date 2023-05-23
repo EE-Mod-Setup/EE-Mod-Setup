@@ -695,9 +695,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Gibberlings3-NPCTweak-5a84301\* .' & @CRLF)
 		_Extract_MoveMod('Gibberlings3-NPCTweak-5a84301')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\IylosEET-3.0ee') Then
-		FileWrite($g_LogFile, '>IylosEET-3.0ee\* .' & @CRLF)
-		_Extract_MoveMod('IylosEET-3.0ee')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\IylosEET-3.1ee') Then
+		FileWrite($g_LogFile, '>IylosEET-3.1ee\* .' & @CRLF)
+		_Extract_MoveMod('IylosEET-3.1ee')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\KidoEE-8.0') Then
 		FileWrite($g_LogFile, '>KidoEE-8.0\* .' & @CRLF)
