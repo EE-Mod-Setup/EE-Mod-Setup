@@ -395,9 +395,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Ascalons_Breagar-12.0.0\* .' & @CRLF)
 		_Extract_MoveMod('Ascalons_Breagar-12.0.0')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascalons_Questpack-4.4') Then
-		FileWrite($g_LogFile, '>Ascalons_Questpack-4.4\* .' & @CRLF)
-		_Extract_MoveMod('Ascalons_Questpack-4.4')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascalons_Questpack-5.1') Then
+		FileWrite($g_LogFile, '>Ascalons_Questpack-5.1\* .' & @CRLF)
+		_Extract_MoveMod('Ascalons_Questpack-5.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Adalons_Blood-15') Then
 		FileWrite($g_LogFile, '>Adalons_Blood-15\* .' & @CRLF)
@@ -1015,9 +1015,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>BG_Quests_And_Encounters-26\* .' & @CRLF)
 		_Extract_MoveMod('BG_Quests_And_Encounters-26')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG1_Romantic_Encounters-10.1') Then
-		FileWrite($g_LogFile, '>BG1_Romantic_Encounters-10.1\* .' & @CRLF)
-		_Extract_MoveMod('BG1_Romantic_Encounters-10.1')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG1_Romantic_Encounters-10.2') Then
+		FileWrite($g_LogFile, '>BG1_Romantic_Encounters-10.2\* .' & @CRLF)
+		_Extract_MoveMod('BG1_Romantic_Encounters-10.2')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Turnabout-1.5') Then
 		FileWrite($g_LogFile, '>Turnabout-1.5\* .' & @CRLF)
