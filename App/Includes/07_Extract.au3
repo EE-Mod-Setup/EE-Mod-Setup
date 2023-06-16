@@ -1155,9 +1155,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>TomeAndBlood-master\* .' & @CRLF)
 		_Extract_MoveMod('TomeAndBlood-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ehlastra-0.5a') Then
-		FileWrite($g_LogFile, '>Ehlastra-0.5a\* .' & @CRLF)
-		_Extract_MoveMod('Ehlastra-0.5a')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ehlastra-0.6a') Then
+		FileWrite($g_LogFile, '>Ehlastra-0.6a\* .' & @CRLF)
+		_Extract_MoveMod('Ehlastra-0.6a')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Sime-05si') Then
 		FileWrite($g_LogFile, '>Sime-05si\* .' & @CRLF)
