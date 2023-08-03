@@ -327,9 +327,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>MasterVampire-03mv\* .' & @CRLF)
 		_Extract_MoveMod('MasterVampire-03mv')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG1NPC-30') Then
-		FileWrite($g_LogFile, '>BG1NPC-30\* .' & @CRLF)
-		_Extract_MoveMod('BG1NPC-30')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BG1NPC-32') Then
+		FileWrite($g_LogFile, '>BG1NPC-32\* .' & @CRLF)
+		_Extract_MoveMod('BG1NPC-32')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\bg1npcmusic-6-rc1') Then
 		FileWrite($g_LogFile, '>bg1npcmusic-6-rc1\* .' & @CRLF)
