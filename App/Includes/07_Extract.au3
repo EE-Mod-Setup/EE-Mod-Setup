@@ -787,9 +787,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>RoseRE-08re\* .' & @CRLF)
 		_Extract_MoveMod('RoseRE-08re')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\RoT-5.06') Then
-		FileWrite($g_LogFile, '>RoT-5.06\* .' & @CRLF)
-		_Extract_MoveMod('RoT-5.06')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\RoT-5.07') Then
+		FileWrite($g_LogFile, '>RoT-5.07\* .' & @CRLF)
+		_Extract_MoveMod('RoT-5.07')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\BoneHill-34') Then
 		FileWrite($g_LogFile, '>BoneHill-34\* .' & @CRLF)
