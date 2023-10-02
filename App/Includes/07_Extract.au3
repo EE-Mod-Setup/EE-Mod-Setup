@@ -475,9 +475,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>A7-LightingPackEE-3.1\* .' & @CRLF)
 		_Extract_MoveMod('A7-LightingPackEE-3.1')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-HiddenGameplayOptions-3.0') Then
-		FileWrite($g_LogFile, '>A7-HiddenGameplayOptions-3.0\* .' & @CRLF)
-		_Extract_MoveMod('A7-HiddenGameplayOptions-3.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-HiddenGameplayOptions-4.4') Then
+		FileWrite($g_LogFile, '>A7-HiddenGameplayOptions-4.4\* .' & @CRLF)
+		_Extract_MoveMod('A7-HiddenGameplayOptions-4.4')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Balduran-s-Sea-Tower-1.2bt') Then
 		FileWrite($g_LogFile, '>Balduran-s-Sea-Tower-1.2bt\* .' & @CRLF)
@@ -715,9 +715,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Lure_Of_Sirines_Call-16.3\* .' & @CRLF)
 		_Extract_MoveMod('Lure_Of_Sirines_Call-16.3')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ImprovedArcher-4.0') Then
-		FileWrite($g_LogFile, '>A7-ImprovedArcher-4.0\* .' & @CRLF)
-		_Extract_MoveMod('A7-ImprovedArcher-4.0')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-ImprovedArcher-4.1') Then
+		FileWrite($g_LogFile, '>A7-ImprovedArcher-4.1\* .' & @CRLF)
+		_Extract_MoveMod('A7-ImprovedArcher-4.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Kitanya-Resurrected-7.2') Then
 		FileWrite($g_LogFile, '>Kitanya-Resurrected-7.2\* .' & @CRLF)
@@ -983,9 +983,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Relieve-Wizard-Slayer-1.7\* .' & @CRLF)
 		_Extract_MoveMod('Relieve-Wizard-Slayer-1.7')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-GolemConstruction-6.2') Then
-		FileWrite($g_LogFile, '>A7-GolemConstruction-6.2\* .' & @CRLF)
-		_Extract_MoveMod('A7-GolemConstruction-6.2')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-GolemConstruction-6.3') Then
+		FileWrite($g_LogFile, '>A7-GolemConstruction-6.3\* .' & @CRLF)
+		_Extract_MoveMod('A7-GolemConstruction-6.3')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SpiritHunterShamantKit-master') Then
 		FileWrite($g_LogFile, '>SpiritHunterShamantKit-master\* .' & @CRLF)
@@ -1143,9 +1143,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>MinervaNPC-1.1\* .' & @CRLF)
 		_Extract_MoveMod('MinervaNPC-1.1')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-TotLM-BG2EE-3.1') Then
-		FileWrite($g_LogFile, '>A7-TotLM-BG2EE-3.1\* .' & @CRLF)
-		_Extract_MoveMod('A7-TotLM-BG2EE-3.1')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\A7-TotLM-BG2EE-4.1') Then
+		FileWrite($g_LogFile, '>A7-TotLM-BG2EE-4.1\* .' & @CRLF)
+		_Extract_MoveMod('A7-TotLM-BG2EE-4.1')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ViconiaFriendship-4.4') Then
 		FileWrite($g_LogFile, '>ViconiaFriendship-4.4\* .' & @CRLF)
