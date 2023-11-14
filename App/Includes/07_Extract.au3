@@ -899,9 +899,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Valerie_NPC-1.2\* .' & @CRLF)
 		_Extract_MoveMod('Valerie_NPC-1.2')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ValenEE-52') Then
-		FileWrite($g_LogFile, '>ValenEE-52\* .' & @CRLF)
-		_Extract_MoveMod('ValenEE-52')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ValenEE-53') Then
+		FileWrite($g_LogFile, '>ValenEE-53\* .' & @CRLF)
+		_Extract_MoveMod('ValenEE-53')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\VaultEE-8.1') Then
 		FileWrite($g_LogFile, '>VaultEE-8.1\* .' & @CRLF)
