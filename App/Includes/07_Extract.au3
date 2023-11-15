@@ -251,9 +251,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>MSFM WeiDU Install v1.35\* .' & @CRLF)
 		_Extract_MoveMod('MSFM WeiDU Install v1.35')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TDD-1.14') Then
-		FileWrite($g_LogFile, '>TDD-1.14\* .' & @CRLF)
-		_Extract_MoveMod('TDD-1.14')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TDD-1.15') Then
+		FileWrite($g_LogFile, '>TDD-1.15\* .' & @CRLF)
+		_Extract_MoveMod('TDD-1.15')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\ConvenientAmmunition-1.0') Then
 		FileWrite($g_LogFile, '>ConvenientAmmunition-1.0\* .' & @CRLF)
@@ -823,9 +823,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Tamoko-0.9\* .' & @CRLF)
 		_Extract_MoveMod('Tamoko-0.9')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TDDz-1.6') Then
-		FileWrite($g_LogFile, '>TDDz-1.6\* .' & @CRLF)
-		_Extract_MoveMod('TDDz-1.6')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TDDz-1.7') Then
+		FileWrite($g_LogFile, '>TDDz-1.7\* .' & @CRLF)
+		_Extract_MoveMod('TDDz-1.7')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\TGC1e-master') Then
 		FileWrite($g_LogFile, '>TGC1e-master\* .' & @CRLF)
