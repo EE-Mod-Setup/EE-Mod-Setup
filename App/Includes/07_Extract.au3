@@ -1303,9 +1303,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Helga-BG1-master\* .' & @CRLF)
 		_Extract_MoveMod('Helga-BG1-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SkitiaNPCs-1.013') Then
-		FileWrite($g_LogFile, '>SkitiaNPCs-1.013\* .' & @CRLF)
-		_Extract_MoveMod('SkitiaNPCs-1.013')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SkitiaNPCs-1.13') Then
+		FileWrite($g_LogFile, '>SkitiaNPCs-1.13\* .' & @CRLF)
+		_Extract_MoveMod('SkitiaNPCs-1.13')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MazzyFriendship-3.5') Then
 		FileWrite($g_LogFile, '>MazzyFriendship-3.5\* .' & @CRLF)
