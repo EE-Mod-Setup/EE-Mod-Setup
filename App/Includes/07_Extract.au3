@@ -283,9 +283,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Velvetfoot-02ve\* .' & @CRLF)
 		_Extract_MoveMod('Velvetfoot-02ve')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SpeakDead-03ry') Then
-		FileWrite($g_LogFile, '>SpeakDead-03ry\* .' & @CRLF)
-		_Extract_MoveMod('SpeakDead-03ry')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SpeakDead-04ry') Then
+		FileWrite($g_LogFile, '>SpeakDead-04ry\* .' & @CRLF)
+		_Extract_MoveMod('SpeakDead-04ry')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MalteseArtefact-0.4l') Then
 		FileWrite($g_LogFile, '>MalteseArtefact-0.4l\* .' & @CRLF)
