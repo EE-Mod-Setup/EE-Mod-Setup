@@ -511,9 +511,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>ThePictureStandard-071\* .' & @CRLF)
 		_Extract_MoveMod('ThePictureStandard-071')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascension-2.0.23') Then
-		FileWrite($g_LogFile, '>Ascension-2.0.23\* .' & @CRLF)
-		_Extract_MoveMod('Ascension-2.0.23')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Ascension-2.0.28') Then
+		FileWrite($g_LogFile, '>Ascension-2.0.28\* .' & @CRLF)
+		_Extract_MoveMod('Ascension-2.0.28')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\MadeInHeaven_ItemPack-6') Then
 		FileWrite($g_LogFile, '>MadeInHeaven_ItemPack-6\* .' & @CRLF)
@@ -815,9 +815,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>SoDBanterEET-0.6\* .' & @CRLF)
 		_Extract_MoveMod('SoDBanterEET-0.6')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SwordCoastStratagems-35.4') Then
-		FileWrite($g_LogFile, '>SwordCoastStratagems-35.4\* .' & @CRLF)
-		_Extract_MoveMod('SwordCoastStratagems-35.4')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\SwordCoastStratagems-35.10') Then
+		FileWrite($g_LogFile, '>SwordCoastStratagems-35.10\* .' & @CRLF)
+		_Extract_MoveMod('SwordCoastStratagems-35.10')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Tamoko-0.9') Then
 		FileWrite($g_LogFile, '>Tamoko-0.9\* .' & @CRLF)
@@ -1174,6 +1174,10 @@ Func Au3ExFix($p_Num)
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\NaliaEE-6.2') Then
 		FileWrite($g_LogFile, '>NaliaEE-6.2\* .' & @CRLF)
 		_Extract_MoveMod('NaliaEE-6.2')
+	EndIf
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Nalia_At_Last-1.11') Then
+		FileWrite($g_LogFile, '>Nalia_At_Last-1.11\* .' & @CRLF)
+		_Extract_MoveMod('Nalia_At_Last-1.11')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\DrizztSaga-3.04') Then
 		FileWrite($g_LogFile, '>DrizztSaga-3.04\* .' & @CRLF)
