@@ -531,9 +531,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>BGEESpawn-master\* .' & @CRLF)
 		_Extract_MoveMod('BGEESpawn-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Caelar-1.3') Then
-		FileWrite($g_LogFile, '>Caelar-1.3\* .' & @CRLF)
-		_Extract_MoveMod('Caelar-1.3')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Caelar-1.4') Then
+		FileWrite($g_LogFile, '>Caelar-1.4\* .' & @CRLF)
+		_Extract_MoveMod('Caelar-1.4')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\The-Rune-04ru') Then
 		FileWrite($g_LogFile, '>The-Rune-04ru\* .' & @CRLF)
@@ -543,9 +543,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>ChloeEET-1.8_EE\* .' & @CRLF)
 		_Extract_MoveMod('ChloeEET-1.8_EE')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Corwin-1.2') Then
-		FileWrite($g_LogFile, '>Corwin-1.2\* .' & @CRLF)
-		_Extract_MoveMod('Corwin-1.2')
+	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Corwin-1.3') Then
+		FileWrite($g_LogFile, '>Corwin-1.3\* .' & @CRLF)
+		_Extract_MoveMod('Corwin-1.3')
 	EndIf
 	If StringRegExp($g_Flags[14], 'BWS|BG1EE|BG2EE|PSTEE|IWD1EE') And FileExists($g_GameDir&'\Subrace-mod-0.3.0') Then
 		FileWrite($g_LogFile, '>Subrace-mod-0.3.0\* .' & @CRLF)
